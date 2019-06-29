@@ -4,7 +4,7 @@
     <br>
         <h1>You've got the Touch!</h1>
         <UserName></UserName>
-        <router-link :to="{ name: 'country-select' }">Next</router-link>
+        <router-view id="view" :countries="countries" :username="username"></router-view>
   </div>
 </template>
 

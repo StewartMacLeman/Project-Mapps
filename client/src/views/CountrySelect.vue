@@ -2,12 +2,19 @@
   <div class="">
     <h1>Country Select view</h1>
   <br>
-      <h1>You've got the Touch!</h1>
+  <CountrySelect :countries="countries"></CountrySelect>
   </div>
 </template>
 
 <script>
+import CountrySelect from "@/components/CountrySelect.vue"
+
 export default {
+  props: ['countries'],
+  components: {
+    CountrySelect
+  }
+
 }
 </script>
 
