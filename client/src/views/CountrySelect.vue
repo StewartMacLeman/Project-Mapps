@@ -10,7 +10,7 @@
 import CountrySelect from "@/components/CountrySelect.vue"
 
 export default {
-  props: ['countries'],
+  props: ['countries', 'username'],
   components: {
     CountrySelect
   }

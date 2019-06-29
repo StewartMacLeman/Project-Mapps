@@ -6,7 +6,7 @@
       <router-link :to="{ name: 'quiz' }">Quiz</router-link>
     </nav>
     <div class="">
-      <router-view id="view" :countries="countries" :username="username"></router-view>
+      <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry"></router-view>
     </div>
   </div>
 
@@ -22,7 +22,8 @@ export default {
   data(){
     return{
       countries: [],
-      username: ""
+      username: "",
+      selectedCountry: ""
     }
   },
   mounted() {
@@ -30,7 +31,11 @@ export default {
     .then(countries => this.countries = countries)
 
     eventBus.$on('username-input', (username) => {
-      this.username = username 
+      this.username = username
+    })
+
+    eventBus.$on('country-selected', (country) =>{
+      this.selectedCountry = country
     })
   }
 
