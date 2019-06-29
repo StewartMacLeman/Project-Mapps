@@ -6,7 +6,7 @@
       <router-link :to="{ name: 'quiz' }">Quiz</router-link>
     </nav>
     <div class="">
-      <router-view id="view"></router-view>
+      <router-view id="view" :countries="countries" :username="username"></router-view>
     </div>
   </div>
 
@@ -15,18 +15,23 @@
 <script>
 
 import CountriesService from './services/CountriesService.js'
-
+import {eventBus} from './main.js'
 
 export default {
   name: 'app',
   data(){
     return{
-      countries: []
+      countries: [],
+      username: ""
     }
   },
   mounted() {
     CountriesService.getCountries()
     .then(countries => this.countries = countries)
+
+    eventBus.$on('username-input', (username) => {
+      this.username = username 
+    })
   }
 
 }
