@@ -1,7 +1,15 @@
 <template>
   <div id="app">
-    <h1>You've got the Touch!</h1>
+    <nav>
+      <router-link :to="{ name: 'home' }">Home</router-link>
+      <router-link :to="{ name: 'country-select' }">Country Select</router-link>
+      <router-link :to="{ name: 'quiz' }">Quiz</router-link>
+    </nav>
+    <div class="">
+      <router-view id="view"></router-view>
+    </div>
   </div>
+
 </template>
 
 <script>
@@ -21,5 +29,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
 }
 </style>
