@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- <WorldMap></WorldMap> -->
     <nav>
       <router-link :to="{ name: 'home' }">Home</router-link>
       <router-link :to="{ name: 'country-select' }">Country Select</router-link>
@@ -13,20 +14,14 @@
 </template>
 
 <script>
-
-import CountriesService from './services/CountriesService.js'
-
+// import WorldMap from '@/components/WorldMap.vue'
 
 export default {
   name: 'app',
-  data(){
-    return{
-      countries: []
-    }
+  data(): {
   },
-  mounted() {
-    CountriesService.getCountries()
-    .then(countries => this.countries = countries)
+  components: {
+    // WorldMap
   }
 
 }
