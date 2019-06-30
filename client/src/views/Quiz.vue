@@ -1,15 +1,18 @@
 <template lang="html">
   <div class="">
-    <h1>Quiz view</h1>
-    <br>
-
+  <QuizQuestions :selectedCountry="selectedCountry" :username="username"></QuizQuestions>
   </div>
 </template>
 
 <script>
+
+import QuizQuestions from '@/components/QuizQuestions.vue'
+
 export default {
-  props: ['selectedCountry'],
-  
+  props: ['selectedCountry', 'username'],
+  components: {
+    QuizQuestions
+  }
 }
 </script>
 
