@@ -1,7 +1,5 @@
 <template lang="html">
-  <div class="">
-    <h1>Country Select view</h1>
-  <br>
+  <div class="country-view">
   <CountrySelect :countries="countriesNew"></CountrySelect>
   </div>
 </template>
@@ -29,4 +27,15 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+.country-view{
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  width: 75vw;
+}
+
+
 </style>

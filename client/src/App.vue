@@ -1,13 +1,18 @@
 <template>
   <div id="app">
-    <nav>
+    <div class="wrapper">
+
+    <div class="box header">M-Apps!...</div>
+    <div class="sidebar">
       <router-link :to="{ name: 'home' }">Home</router-link>
       <router-link :to="{ name: 'country-select' }">Country Select</router-link>
       <router-link :to="{ name: 'quiz' }">Quiz</router-link>
-    </nav>
-    <div class="">
+    </div>
+    <div class="box content">
       <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry"></router-view>
     </div>
+  </div>
+
   </div>
 
 </template>
@@ -56,4 +61,68 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 20vw 37vw 37vw;
+  grid-template-areas:
+  "sidebar header header"
+  "sidebar content content"
+  "sidebar content content"
+  "sidebar content content"
+  "sidebar content content"
+  "sidebar  content  content";
+  background-color: #fff;
+  color: #444;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #439fef;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  align-items: center;
+}
+
+.content {
+  grid-area: content;
+  height: auto;
+  display: flex;
+  align-content: space-around;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sidebar a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh
+}
+
+.sidebar a {
+  width: 15vw;
+  background-color: #3870a0;
+  color: white;
+  font-size: 20px;
+}
+
+.box {
+  background-color: #439fef;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
 </style>

@@ -1,8 +1,5 @@
 <template lang="html">
-  <div class="">
-    <h1>Home view</h1>
-    <br>
-        <h1>You've got the Touch!</h1>
+  <div class="home-view">
         <UserName></UserName>
         <router-view id="view" :countries="countries" :username="username"></router-view>
   </div>
@@ -18,7 +15,17 @@ export default {
     UserName
   }
 }
-</script>
+</script>.home-view{
 
 <style lang="css" scoped>
+
+.home-view{
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  width: 75vw;
+}
+
 </style>
