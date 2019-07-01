@@ -9,7 +9,8 @@ db.countries.insertMany([
       {
         question: "Which of these is the flag of France?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
-        correct_answer: "flag_url1"
+        correct_answer: "flag_url1",
+        question_shorthand: "Flag"
       },
       {
         question: "What is the capital city of France?",
