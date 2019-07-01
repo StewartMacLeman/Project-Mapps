@@ -8,8 +8,8 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of France?",
-        answers: [ "./public/css/images/france.png", "./public/css/images/brazil.png", "./public/css/images/japan.png", "./public/css/images/usa.png" ],
-        correct_answer: "./public/css/images/france.png",
+        answers: [ "../assets/france.png", "../assets/brazil.png", "../assets/japan.png", "../assets/usa.png" ],
+        correct_answer: "../assets/france.png",
         question_shorthand: "Flag"
       },
       {
