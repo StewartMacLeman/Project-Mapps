@@ -1,5 +1,5 @@
 <template lang="html">
-  <l-map style="height: 500px; width: 100%" :options="mapOptions" :center="selectedCountry.lat_long" :zoom="zoom" :minZoom="1.4" :ref="map">
+  <l-map style="height: 500px; width: 100%" :options="mapOptions" :center="selectedCountry.lat_long" :zoom="zoom" :minZoom="1.4">
     <l-tile-layer :url="url"></l-tile-layer>
   </l-map>
 </template>
@@ -23,8 +23,8 @@ export default {
     eventBus.$on('country-selected', (country) =>{
     this.selectedCountry = country
     }),
-    eventBus.$on('zoom-array', (zoom) =>{
-      this.zoom = zoom
+    eventBus.$on('zoom-array', (zooms) =>{
+      this.zoom = zooms
     })
   }
 }
