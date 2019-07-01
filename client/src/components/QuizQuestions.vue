@@ -1,6 +1,12 @@
 <template lang="html">
   <div class="">
 
+    <!-- <div class="test-image">
+      <img :src="selectedCountryQuestions[0].answers[0]" height="190px" width="250px"
+      :alt="selectedCountry.name">
+      <img src="../assets/images/france.png" height="180px" width="250px">
+    </div> -->
+
     <div v-if="showQuiz" class="questions">
     <p>{{selectedCountryQuestions[0].question}}</p>
     <br>
