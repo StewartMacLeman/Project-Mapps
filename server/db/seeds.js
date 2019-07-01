@@ -110,7 +110,7 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of Japan?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/japan.png", "../assets/images/france.png", "../assets/images/japan.png" ],
+        answers: [ "../assets/images/russia.png", "../assets/images/japan.png", "../assets/images/france.png", "../assets/images/usa.png" ],
         correct_answer: "../assets/images/japan.png",
         question_shorthand: "Flag"
       },
@@ -318,7 +318,7 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of Russia?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/russia.png" ],
+        answers: [ "../assets/images/brazil.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/russia.png" ],
         correct_answer: "../assets/images/russia.png",
         question_shorthand: "Flag"
       },
@@ -422,7 +422,7 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of China?",
-        answers: [ "../assets/images/china.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/japan.png" ],
+        answers: [ "../assets/images/china.png", "../assets/images/india.png", "../assets/images/france.png", "../assets/images/japan.png" ],
         correct_answer: "../assets/images/china.png",
         question_shorthand: "Flag"
       },
@@ -526,7 +526,7 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of Brazil?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/brazil.png", "../assets/images/france.png", "../assets/images/japan.png" ],
+        answers: [ "../assets/images/russia.png", "../assets/images/brazil.png", "../assets/images/france.png", "../assets/images/usa.png" ],
         correct_answer: "../assets/images/brazil.png",
         question_shorthand: "Flag"
       },
@@ -630,7 +630,7 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of Australia?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/china.png", "../assets/images/australia.png", "../assets/images/japan.png" ],
+        answers: [ "../assets/images/france.png", "../assets/images/china.png", "../assets/images/australia.png", "../assets/images/japan.png" ],
         correct_answer: "../assets/images/australia.png",
         question_shorthand: "Flag"
       },
@@ -734,7 +734,7 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of India?",
-        answers: [ "../assets/images/india.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/japan.png" ],
+        answers: [ "../assets/images/india.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/south-africa.png" ],
         correct_answer: "../assets/images/india.png",
         question_shorthand: "Flag"
       },
@@ -838,7 +838,7 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of South Africa?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/south-africa.png", "../assets/images/france.png", "../assets/images/japan.png" ],
+        answers: [ "../assets/images/scotland.png", "../assets/images/south-africa.png", "../assets/images/usa.png", "../assets/images/japan.png" ],
         correct_answer: "../assets/images/south-africa.png",
         question_shorthand: "Flag"
       },
@@ -942,7 +942,7 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of Scotland?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/scotland.png" ],
+        answers: [ "../assets/images/scotland.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/india.png" ],
         correct_answer: "../assets/images/scotland.png",
         question_shorthand: "Flag"
       },
