@@ -186,8 +186,8 @@ db.countries.insertMany([
     easy: [
       {
         question: "Which of these is the flag of the USA?",
-        answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
-        correct_answer: "flag_url3"
+        answers: [ "../assets/images/russia.png", "../assets/images/scotland.png", "../assets/images/france.png", "../assets/images/usa.png" ],
+        correct_answer: "../assets/images/usa.png",
       },
       {
         question: "What is the capital city of the USA?",
