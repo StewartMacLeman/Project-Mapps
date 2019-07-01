@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="country-select">
     <label for="selectCountry">Choose a country to learn about</label>
-    <select v-model="selectedCountry"  style="text-align:center;">
+    <select v-model="selectedCountry"  style="text-align:center;" required>
       <option disabled value=""  style="text-align:center;">Select Country</option>
       <option v-for="(country, index) in countries" :index="index" :value="country"  style="text-align:center;">{{country.name}}</option>
     </select>
@@ -37,7 +37,7 @@ export default {
   align-items: center;
 }
 
-select { 
+select {
   text-align-last:center;
  }
 
