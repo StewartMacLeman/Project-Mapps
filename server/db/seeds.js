@@ -34,7 +34,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of France?",
+        question: "What is the national sport of France?",
         answers: [ "Football", "Tennis", "Cycling", "Rugby" ],
         correct_answer: "Football"
       },
@@ -61,7 +61,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through France?",
+        question: "Which is the longest river that runs through France?",
         answers: [ "The Rhine", "The Loire", "The Rhone", "The Seine" ],
         correct_answer: "The Rhine"
       },
@@ -94,7 +94,7 @@ db.countries.insertMany([
     name: "Japan",
     easy: [
       {
-        question_1: "Which of these is the flag of Japan?",
+        question: "Which of these is the flag of Japan?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url2"
       },
@@ -121,7 +121,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of Japan?",
+        question: "What is the national sport of Japan?",
         answers: [ "Judo", "Tennis", "Sumo Wrestling", "Baseball" ],
         correct_answer: "Sumo Wrestling"
       },
@@ -148,7 +148,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through Japan?",
+        question: "Which is the longest river that runs through Japan?",
         answers: [ "The Mu", "The Tukoro", "The Teshio", "The Ishikari" ],
         correct_answer: "The Ishikari"
       },
@@ -181,7 +181,7 @@ db.countries.insertMany([
     name: "USA",
     easy: [
       {
-        question_1: "Which of these is the flag of the USA?",
+        question: "Which of these is the flag of the USA?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url3"
       },
@@ -208,7 +208,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of the USA?",
+        question: "What is the national sport of the USA?",
         answers: [ "American Football", "Tennis", "Golf", "Baseball" ],
         correct_answer: "Basball"
       },
@@ -235,7 +235,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through the USA?",
+        question: "Which is the longest river that runs through the USA?",
         answers: [ "The Colorado", "The Ohio", "The Mississippi", "The Missouri" ],
         correct_answer: "The Missouri"
       },
@@ -268,7 +268,7 @@ db.countries.insertMany([
     name: "Russia",
     easy: [
       {
-        question_1: "Which of these is the flag of Russia?",
+        question: "Which of these is the flag of Russia?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url4"
       },
@@ -295,7 +295,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of Russia?",
+        question: "What is the national sport of Russia?",
         answers: [ "Football", "Tennis", "Wrestling", "Bandy" ],
         correct_answer: "Bandy"
       },
@@ -322,7 +322,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through Russia?",
+        question: "Which is the longest river that runs through Russia?",
         answers: [ "The Volga", "The Lena", "The Ob-Irtysh", "The Yenisei-Angara-Selenge" ],
         correct_answer: "The Yenisei-Angara-Selenge"
       },
@@ -355,7 +355,7 @@ db.countries.insertMany([
     name: "China",
     easy: [
       {
-        question_1: "Which of these is the flag of China?",
+        question: "Which of these is the flag of China?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url1"
       },
@@ -382,7 +382,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of China?",
+        question: "What is the national sport of China?",
         answers: [ "Football", "Ping-Pong", "Wrestling", "Kung Fu" ],
         correct_answer: "Ping-Pong"
       },
@@ -409,7 +409,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through China?",
+        question: "Which is the longest river that runs through China?",
         answers: [ "The Yangtze", "The Yarlung", "The Yellow", "The Heilongjiang" ],
         correct_answer: "The Yangtze"
       },
@@ -442,7 +442,7 @@ db.countries.insertMany([
     name: "Brazil",
     easy: [
       {
-        question_1: "Which of these is the flag of Brazil?",
+        question: "Which of these is the flag of Brazil?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url2"
       },
@@ -469,7 +469,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of Brazil?",
+        question: "What is the national sport of Brazil?",
         answers: [ "Football", "Golf", "Tennis", "Volleyball" ],
         correct_answer: "Football"
       },
@@ -496,7 +496,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through Brazil?",
+        question: "Which is the longest river that runs through Brazil?",
         answers: [ "The Rio Negro", "The Purus", "The Parana", "The Amazon" ],
         correct_answer: "The Amazon"
       },
@@ -529,7 +529,7 @@ db.countries.insertMany([
     name: "Australia",
     easy: [
       {
-        question_1: "Which of these is the flag of Australia?",
+        question: "Which of these is the flag of Australia?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url3"
       },
@@ -556,7 +556,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of Australia?",
+        question: "What is the national sport of Australia?",
         answers: [ "Football", "Rugby", "Tennis", "Cricket" ],
         correct_answer: "Cricket"
       },
@@ -583,7 +583,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through Australia?",
+        question: "Which is the longest river that runs through Australia?",
         answers: [ "The Darling", "Cooper Creek", "The Murray", "The Lachlan" ],
         correct_answer: "The Murray"
       },
@@ -616,7 +616,7 @@ db.countries.insertMany([
     name: "India",
     easy: [
       {
-        question_1: "Which of these is the flag of India?",
+        question: "Which of these is the flag of India?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url4"
       },
@@ -643,7 +643,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of India?",
+        question: "What is the national sport of India?",
         answers: [ "Hockey", "Kaddabi", "None!", "Cricket" ],
         correct_answer: "None!"
       },
@@ -670,7 +670,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through India?",
+        question: "Which is the longest river that runs through India?",
         answers: [ "The Ganges", "The Krishna", "The Brahmaputra", "The Indus" ],
         correct_answer: "The Indus"
       },
@@ -703,7 +703,7 @@ db.countries.insertMany([
     name: "South Africa",
     easy: [
       {
-        question_1: "Which of these is the flag of South Africa?",
+        question: "Which of these is the flag of South Africa?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url1"
       },
@@ -730,7 +730,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of South Africa?",
+        question: "What is the national sport of South Africa?",
         answers: [ "Rugby", "Football", "None!", "Cricket" ],
         correct_answer: "None!"
       },
@@ -757,7 +757,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through South Africa?",
+        question: "Which is the longest river that runs through South Africa?",
         answers: [ "The Vaal", "The Limpopo", "The Great Fish", "The Orange" ],
         correct_answer: "The Orange"
       },
@@ -790,7 +790,7 @@ db.countries.insertMany([
     name: "Scotland",
     easy: [
       {
-        question_1: "Which of these is the flag of Scotland?",
+        question: "Which of these is the flag of Scotland?",
         answers: [ "flag_url1", "flag_url2", "flag_url3", "flag_url4" ],
         correct_answer: "flag_url2"
       },
@@ -817,7 +817,7 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question_1: "What is the national sport of Scotland?",
+        question: "What is the national sport of Scotland?",
         answers: [ "Rugby", "Football", "None!", "Darts" ],
         correct_answer: "Football"
       },
@@ -844,7 +844,7 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question_1: "Which is the longest river that runs through Scotland?",
+        question: "Which is the longest river that runs through Scotland?",
         answers: [ "The Spey", "The Clyde", "The Tay", "The Dee" ],
         correct_answer: "The Tay"
       },
