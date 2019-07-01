@@ -109,7 +109,7 @@ db.countries.insertMany([
       {
         question: "What is the main lanuguge spoken in Japan?",
         answers: [ "English", "French", "Japanese", "Spanish" ],
-        correct_answer: "Janpanese"
+        correct_answer: "Japanese"
       },
       {
         question: "Which of these is a well known landmark in Japan?",
@@ -176,8 +176,8 @@ db.countries.insertMany([
         correct_answer: "334"
       }
     ],
-    lat_long: [38.067580, 139.046949],
-    zooms: [2.2, 3.1, 3.9, 4.8, 5.6],
+    lat_long: [39.067580, 138.046949],
+    zooms: [2.2, 3.1, 3.9, 4.4, 5.1],
     flag: ""
   },
 
