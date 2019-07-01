@@ -214,7 +214,7 @@ db.countries.insertMany([
       {
         question: "What is the national sport of the USA?",
         answers: [ "American Football", "Tennis", "Golf", "Baseball" ],
-        correct_answer: "Basball"
+        correct_answer: "Baseball"
       },
       {
         question: "What is the main currency used in the USA?",
@@ -284,7 +284,7 @@ db.countries.insertMany([
         correct_answer: "Moscow"
       },
       {
-        question: "What is the main lanuguge spoken in Russia?",
+        question: "What is the main language spoken in Russia?",
         answers: [ "English", "French", "German", "Russian" ],
         correct_answer: "Russian"
       },
