@@ -873,5 +873,4 @@ db.countries.insertMany([
       flag: ""
   }
 
-
 ])
