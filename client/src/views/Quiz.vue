@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="quiz-map">
     <div class="map">
-      <img src="/css/images/map.jpg" height="400px" width="900px" alt="map of america">
+      <WorldMap></WorldMap>
     </div>
     <div class="quiz">
       <QuizQuestions :selectedCountry="selectedCountry" :username="username"></QuizQuestions>
@@ -12,11 +12,13 @@
 <script>
 
 import QuizQuestions from '@/components/QuizQuestions.vue'
+import WorldMap from '@/components/WorldMap.vue'
 
 export default {
   props: ['selectedCountry', 'username'],
   components: {
-    QuizQuestions
+    QuizQuestions,
+    WorldMap
   }
 }
 </script>
