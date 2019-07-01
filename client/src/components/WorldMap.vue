@@ -1,5 +1,5 @@
 <template lang="html">
-  <l-map style="height: 500px; width: 100%" :options="mapOptions" :center="selectedCountry.lat_long" :zoom="zoom" :minZoom="1.4">
+  <l-map style="height: 500px; width: 100%" :options="mapOptions" ref="worldMap" :minZoom="1.4">
     <l-tile-layer :url="url"></l-tile-layer>
   </l-map>
 </template>
@@ -9,10 +9,21 @@
 import {eventBus} from '../main.js'
 
 export default {
+  computed: {
+    countryBounds: function() {
+      return this.selectedCountry.lat_long
+    }
+  },
+  watch: {
+    worldMapUpdate: function() {
+      this.$refs.worldMap.mapObject.flyToBounds(this.countryBounds);
+    }
+  },
   data() {
     return {
       url: `https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png?access_token=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ`,
       selectedCountry: null,
+      worldMap: null,
       zoom: 0,
       mapOptions: {
        zoomSnap: 0.1
@@ -25,6 +36,8 @@ export default {
     }),
     eventBus.$on('zoom-array', (zooms) =>{
       this.zoom = zooms
+      let newZoom = this.zoom
+      this.$refs.worldMap.mapObject.flyTo(this.selectedCountry.lat_long, newZoom);
     })
   }
 }
