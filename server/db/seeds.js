@@ -101,7 +101,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-    lat_long: [48.8566, 2.3522],
+    lat_long: [47.064034, 2.497441],
     flag: ""
   },
 
@@ -205,7 +205,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-    lat_long: [35.6804, 139.7690],
+    lat_long: [38.067580, 139.046949],
     flag: ""
   },
 
@@ -309,7 +309,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-    lat_long: [38.9072, 77.0369],
+    lat_long: [40.849452, -97.834994],
     flag: ""
   },
 
@@ -413,7 +413,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-      lat_long: [55.7558, 37.6173],
+      lat_long: [64.093769, 106.478228],
       flag: ""
   },
 
@@ -517,7 +517,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-      lat_long: [39.9042, 116.4074],
+      lat_long: [36.103825, 102.501833],
       flag: ""
   },
 
@@ -621,7 +621,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-      lat_long: [15.8267, 47.9218],
+      lat_long: [-13.181802, -52.468510],
       flag: ""
   },
 
@@ -725,7 +725,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-      lat_long: [35.2809, 149.1300],
+      lat_long: [-22.863754, 133.081807],
       flag: ""
   },
 
@@ -829,7 +829,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-      lat_long: [28.6139, 77.2090],
+      lat_long: [20.012176, 78.003143],
       flag: ""
   },
 
@@ -933,7 +933,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-      lat_long: [25.7479, 28.2293],
+      lat_long: [-29.131173, 23.816596],
       flag: ""
   },
 
@@ -1037,7 +1037,7 @@ db.countries.insertMany([
         question_shorthand: "Pop. Density"
       }
     ],
-      lat_long: [55.9533, 3.1883],
+      lat_long: [56.866107, -4.149746],
       flag: ""
   }
 

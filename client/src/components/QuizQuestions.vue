@@ -1,17 +1,30 @@
 <template lang="html">
   <div class="">
 
+    <!-- <div class="test-image">
+      <img :src="selectedCountryQuestions[0].answers[0]" height="190px" width="250px"
+      :alt="selectedCountry.name">
+      <img src="../assets/images/france.png" height="180px" width="250px">
+    </div> -->
+
+    <div v-if="firstQuestion" class="first-question">
+    <p>{{selectedCountryQuestions[0].question}}</p>
+    <br>
+    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="180px" width="250px"></button>
+    </div>
+
+
     <div v-if="showQuiz" class="questions">
     <p>{{selectedCountryQuestions[0].question}}</p>
     <br>
     <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers">{{answer}}</button>
     </div>
 
-    <div v-if="!showQuiz" class="quiz-result" >
+    <div v-if="showResult" class="quiz-result" >
       <p>{{username}} - You scored {{correctAnswers}} out of 5</p>
     </div>
 
-    <div v-if="!showQuiz" class="navigation-buttons">
+    <div v-if="showResult" class="navigation-buttons">
     <button onclick="window.location.href = 'http://localhost:8080/#/';" type="button" name="home-button">Home</button>
     <button onclick="window.location.href = 'http://localhost:8080/#/country-select';" type="button" name="home-button">Choose another country</button>
     </div>
@@ -27,8 +40,10 @@ export default {
     return {
       selectedCountryQuestions: [],
       correctAnswers: 0,
-      showQuiz: true,
+      showQuiz: false,
       answerGiven: "",
+      firstQuestion: true,
+      showResult: false,
     }
   },
   methods: {
@@ -49,12 +64,22 @@ export default {
         this.correctAnswers +=1
       }
     },
+    updateFirstQuestion(){
+      this.firstQuestion = false
+    },
+    updateShowResult(){
+      if (this.selectedCountryQuestions.length === 0){
+      this.showResult = true
+      }
+    },
 
 
     handleClick(answer){
+      this.updateFirstQuestion()
       this.updateCorrectAnswers(answer)
       this.removeQuestion()
       this.updateShowQuiz()
+      this.updateShowResult()
     }
 
 

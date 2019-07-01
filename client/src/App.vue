@@ -5,8 +5,6 @@
     <div class="box header">M-Apps!...</div>
     <div class="sidebar">
       <router-link :to="{ name: 'home' }">Home</router-link>
-      <router-link :to="{ name: 'country-select' }">Country Select</router-link>
-      <router-link :to="{ name: 'quiz' }">Quiz</router-link>
     </div>
     <div class="box content">
       <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry"></router-view>
@@ -85,6 +83,7 @@ nav {
   justify-content: flex-start;
   height: auto;
   align-items: center;
+  /* background-image: url('./assets/images/france.png'); */
 }
 
 .content {
@@ -105,7 +104,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 20vh;
+  height: 80vh;
   margin-top: 5vh;
   margin-bottom: 5vh
 }
