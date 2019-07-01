@@ -177,7 +177,7 @@ db.countries.insertMany([
       }
     ],
     lat_long: [38.067580, 139.046949],
-    zooms: [1.4, 3.5, 4, 4.6 , 5.6],
+    zooms: [2.2, 3.1, 3.9, 4.8, 5.6],
     flag: ""
   },
 
@@ -265,6 +265,7 @@ db.countries.insertMany([
       }
     ],
     lat_long: [40.849452, -97.834994],
+    zooms: [1.9, 2.4, 2.9, 3.4, 3.9],
     flag: ""
   },
 
@@ -353,6 +354,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [64.093769, 106.478228],
+      zooms: [1.6, 1.8, 2.0, 2.2, 2.5],
       flag: ""
   },
 
@@ -441,6 +443,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [36.103825, 102.501833],
+      zooms: [1.9, 2.4, 2.9, 3.4, 3.9],
       flag: ""
   },
 
@@ -529,6 +532,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [-13.181802, -52.468510],
+      zooms: [1.9, 2.4, 2.9, 3.4, 4.0],
       flag: ""
   },
 
@@ -617,6 +621,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [-22.863754, 133.081807],
+      zooms: [1.9, 2.4, 2.9, 3.5, 4.1],
       flag: ""
   },
 
@@ -705,6 +710,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [20.012176, 78.003143],
+      zooms: [2.0, 2.6, 3.2, 3.8, 4.5],
       flag: ""
   },
 
@@ -793,6 +799,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [-29.131173, 23.816596],
+      zooms: [2.1, 2.9, 3.7, 4.5, 5.3],
       flag: ""
   },
 
@@ -881,6 +888,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [56.866107, -4.149746],
+      zooms: [2.3, 3.2, 4.2, 5.2, 6.2],
       flag: ""
   }
 
