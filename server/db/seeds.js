@@ -696,7 +696,7 @@ db.countries.insertMany([
         correct_answer: "415"
       }
     ],
-      lat_long: [23.012176, 78.003143],
+      lat_long: [20.012176, 78.003143],
       flag: ""
   },
 

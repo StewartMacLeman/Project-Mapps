@@ -12,7 +12,7 @@ export default {
   data() {
     return {
       url: `https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png?access_token=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ`,
-      zoom: 4,
+      zoom: 6.2,
       selectedCountry: null,
       mapOptions: {
        zoomSnap: 0.1
