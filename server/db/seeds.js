@@ -174,7 +174,7 @@ db.countries.insertMany([
         correct_answer: "334"
       }
     ],
-    lat_long: [37.067580, 139.046949],
+    lat_long: [38.067580, 139.046949],
     flag: ""
   },
 
@@ -348,7 +348,7 @@ db.countries.insertMany([
         correct_answer: "9"
       }
     ],
-      lat_long: [64.093769, 93.478228],
+      lat_long: [64.093769, 106.478228],
       flag: ""
   },
 
@@ -435,7 +435,7 @@ db.countries.insertMany([
         correct_answer: "145"
       }
     ],
-      lat_long: [34.281418, 104.661728],
+      lat_long: [36.103825, 102.501833],
       flag: ""
   },
 
@@ -522,7 +522,7 @@ db.countries.insertMany([
         correct_answer: "25"
       }
     ],
-      lat_long: [-10.181802, -53.468510],
+      lat_long: [-13.181802, -52.468510],
       flag: ""
   },
 
