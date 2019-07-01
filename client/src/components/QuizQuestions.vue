@@ -49,8 +49,10 @@ export default {
   },
   methods: {
     removeQuestion(){
-      this.selectedCountryQuestions.splice(0,1),
-      this.zoomArray.splice(0,1)
+      this.selectedCountryQuestions.splice(0,1)
+      if(this.zoomArray.length > 1){
+        this.zoomArray.splice(0,1)
+      }
     },
     updateShowQuiz(){
       if (this.selectedCountryQuestions.length != 0){
@@ -79,10 +81,10 @@ export default {
     handleClick(answer){
       this.updateFirstQuestion()
       this.updateCorrectAnswers(answer)
+      eventBus.$emit('zoom-array', this.zoomArray[0])
       this.removeQuestion()
       this.updateShowQuiz()
       this.updateShowResult()
-      eventBus.$emit('zoom-array', this.zoomArray[0])
     }
 
 

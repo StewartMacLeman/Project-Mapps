@@ -88,7 +88,7 @@ db.countries.insertMany([
       }
     ],
     lat_long: [47.064034, 2.497441],
-    zooms: [1.4, 3.5, 4, 4.6 ,5.7],
+    zooms: [2.2, 3.1, 3.9, 4.8, 5.7],
     flag: ""
   },
 
