@@ -1,5 +1,5 @@
 <template lang="html">
-  <l-map style="height: 500px; width: 100%" :options="mapOptions" :maxZoom="20" :center="[-14.1276, -52.468510]" :zoom="zoom" :minZoom="1">
+  <l-map style="height: 500px; width: 100%" :options="mapOptions" :maxZoom="20" :center="selectedCountry.lat_long" :zoom="zoom" :minZoom="1">
     <l-tile-layer :url="url"></l-tile-layer>
   </l-map>
 </template>
