@@ -39,6 +39,7 @@ export default {
   data(){
     return {
       selectedCountryQuestions: [],
+      zoomArray: [],
       correctAnswers: 0,
       showQuiz: false,
       answerGiven: "",
@@ -48,7 +49,8 @@ export default {
   },
   methods: {
     removeQuestion(){
-      this.selectedCountryQuestions.splice(0,1)
+      this.selectedCountryQuestions.splice(0,1),
+      this.zoomArray.splice(0,1)
     },
     updateShowQuiz(){
       if (this.selectedCountryQuestions.length != 0){
@@ -80,13 +82,15 @@ export default {
       this.removeQuestion()
       this.updateShowQuiz()
       this.updateShowResult()
+      eventBus.$emit('zoom-array', this.zoomArray[0])
     }
 
 
   },
   mounted() {
     eventBus.$on('country-selected', (country) =>{
-      this.selectedCountryQuestions = country.easy
+      this.selectedCountryQuestions = country.easy,
+      this.zoomArray = country.zooms
     })
   }
 }
