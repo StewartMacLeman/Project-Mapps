@@ -45,6 +45,8 @@ export default {
       answerGiven: "",
       firstQuestion: true,
       showResult: false,
+      questionCounter: 0,
+      profileChange: true
     }
   },
   methods: {
@@ -76,6 +78,26 @@ export default {
       this.showResult = true
       }
     },
+    updateQuestionCounter(){
+      this.questionCounter += 1
+    },
+    updateProfile(){
+      if(this.questionCounter === 1){
+        eventBus.$emit('update-profile-one', this.profileChange)
+      }
+        else if (this.questionCounter === 2){
+        eventBus.$emit('update-profile-two', this.profileChange)
+      }
+        else if (this.questionCounter === 3){
+        eventBus.$emit('update-profile-three', this.profileChange)
+      }
+        else if (this.questionCounter === 4){
+        eventBus.$emit('update-profile-four', this.profileChange)
+      }
+        else if (this.questionCounter === 5){
+        eventBus.$emit('update-profile-five', this.profileChange)
+      }
+    },
 
 
     handleClick(answer){
@@ -85,6 +107,8 @@ export default {
       this.removeQuestion()
       this.updateShowQuiz()
       this.updateShowResult()
+      this.updateQuestionCounter()
+      this.updateProfile()
     }
 
 
