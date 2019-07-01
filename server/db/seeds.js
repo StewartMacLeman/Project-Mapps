@@ -12,24 +12,24 @@ db.countries.insertMany([
         correct_answer: "flag_url1"
       },
       {
-        question_2: "What is the capital city of France?",
-        answers_q2: [ "Paris", "Glasgow", "London", "Milan" ],
-        correct_answer_q2: "Paris"
+        question: "What is the capital city of France?",
+        answers: [ "Paris", "Glasgow", "London", "Milan" ],
+        correct_answer: "Paris"
       },
       {
-        question_3: "What is the main lanuguge spoken in France?",
-        answers_q3: [ "English", "French", "Italian", "Spanish" ],
-        correct_answer_q3: "French"
+        question: "What is the main lanuguge spoken in France?",
+        answers: [ "English", "French", "Italian", "Spanish" ],
+        correct_answer: "French"
       },
       {
-        question_4: "Which of these is a well known landmark in France?",
-        answers_q4: [ "London Bridge", "The Empire State Building", "The White House", "The Eiffel Tower" ],
-        correct_answer_q4: "The Eiffel Tower"
+        question: "Which of these is a well known landmark in France?",
+        answers: [ "London Bridge", "The Empire State Building", "The White House", "The Eiffel Tower" ],
+        correct_answer: "The Eiffel Tower"
       },
       {
-        question_5: "Which of these is a famous French food?",
-        answers_q5: [ "Pizza", "Sushi", "Baguette", "Scones" ],
-        correct_answer_q5: "Baguette"
+        question: "Which of these is a famous French food?",
+        answers: [ "Pizza", "Sushi", "Baguette", "Scones" ],
+        correct_answer: "Baguette"
       }
     ],
     medium: [
@@ -39,24 +39,24 @@ db.countries.insertMany([
         correct_answer: "Football"
       },
       {
-        question_2: "What is the main currency used in France?",
-        answers_q2: [ "The Pound", "The Euro", "The Dollar", "The Yen" ],
-        correct_answer_q2: "The Euro"
+        question: "What is the main currency used in France?",
+        answers: [ "The Pound", "The Euro", "The Dollar", "The Yen" ],
+        correct_answer: "The Euro"
       },
       {
-        question_3: "What is the approximate population of France in millions?",
-        answers_q3: [ "75", "59", "81", "67" ],
-        correct_answer_q3: "67"
+        question: "What is the approximate population of France in millions?",
+        answers: [ "75", "59", "81", "67" ],
+        correct_answer: "67"
       },
       {
-        question_4: "Which is the most populated city of France?",
-        answers_q4: [ "Toulouse", "Lyon", "Paris", "Marseille" ],
-        correct_answer_q4: "Paris"
+        question: "Which is the most populated city of France?",
+        answers: [ "Toulouse", "Lyon", "Paris", "Marseille" ],
+        correct_answer: "Paris"
       },
       {
-        question_5: "What is the national animal of France?",
-        answers_q5: [ "The Dog", "The Rooster", "The Cat", "The Pigeon" ],
-        correct_answer_q5: "The Rooster"
+        question: "What is the national animal of France?",
+        answers: [ "The Dog", "The Rooster", "The Cat", "The Pigeon" ],
+        correct_answer: "The Rooster"
       }
     ],
     hard: [
@@ -66,27 +66,27 @@ db.countries.insertMany([
         correct_answer: "The Rhine"
       },
       {
-        question_2: "Which is the second most populated city of France?",
-        answers_q2: [ "Toulouse", "Lyon", "Nice", "Marseille" ],
-        correct_answer_q2: "Marseille"
+        question: "Which is the second most populated city of France?",
+        answers: [ "Toulouse", "Lyon", "Nice", "Marseille" ],
+        correct_answer: "Marseille"
       },
       {
-        question_3: "Which is the highest mountain in France?",
-        answers_q3: [ "Grande Casse", "Mont Pourri", "Mont Pelvoux", "Mont Blanc" ],
-        correct_answer_q3: "Mont Blanc"
+        question: "Which is the highest mountain in France?",
+        answers: [ "Grande Casse", "Mont Pourri", "Mont Pelvoux", "Mont Blanc" ],
+        correct_answer: "Mont Blanc"
       },
       {
-        question_4: "What is the most common faith practised in France?",
-        answers_q4: [ "Christianity", "Islam", "Judaism", "Hinduism" ],
-        correct_answer_q4: "Christianity"
+        question: "What is the most common faith practised in France?",
+        answers: [ "Christianity", "Islam", "Judaism", "Hinduism" ],
+        correct_answer: "Christianity"
       },
       {
-        question_5: "What is the population density per square kilometer of France?",
-        answers_q5: [ "200", "138", "104", "89" ],
-        correct_answer_q5: "104"
+        question: "What is the population density per square kilometer of France?",
+        answers: [ "200", "138", "104", "89" ],
+        correct_answer: "104"
       }
     ],
-    lat_long: "48.8566° N, 2.3522° E",
+    lat_long: [48.8566, 2.3522],
     flag: ""
   },
 
@@ -99,24 +99,24 @@ db.countries.insertMany([
         correct_answer: "flag_url2"
       },
       {
-        question_2: "What is the capital city of Japan?",
-        answers_q2: [ "Paris", "Tokyo", "London", "Milan" ],
-        correct_answer_q2: "Tokyo"
+        question: "What is the capital city of Japan?",
+        answers: [ "Paris", "Tokyo", "London", "Milan" ],
+        correct_answer: "Tokyo"
       },
       {
-        question_3: "What is the main lanuguge spoken in Japan?",
-        answers_q3: [ "English", "French", "Japanese", "Spanish" ],
-        correct_answer_q3: "Janpanese"
+        question: "What is the main lanuguge spoken in Japan?",
+        answers: [ "English", "French", "Japanese", "Spanish" ],
+        correct_answer: "Janpanese"
       },
       {
-        question_4: "Which of these is a well known landmark in Japan?",
-        answers_q4: [ "London Bridge", "The Empire State Building", "Mount Fuji", "The Eiffel Tower" ],
-        correct_answer_q4: "Mount Fuji"
+        question: "Which of these is a well known landmark in Japan?",
+        answers: [ "London Bridge", "The Empire State Building", "Mount Fuji", "The Eiffel Tower" ],
+        correct_answer: "Mount Fuji"
       },
       {
-        question_5: "Which of these is a famous Janpanese food?",
-        answers_q5: [ "Pizza", "Sushi", "Baguette", "Scones" ],
-        correct_answer_q5: "Sushi"
+        question: "Which of these is a famous Janpanese food?",
+        answers: [ "Pizza", "Sushi", "Baguette", "Scones" ],
+        correct_answer: "Sushi"
       }
     ],
     medium: [
@@ -126,24 +126,24 @@ db.countries.insertMany([
         correct_answer: "Sumo Wrestling"
       },
       {
-        question_2: "What is the main currency used in Japan?",
-        answers_q2: [ "The Won", "The Baht", "The Dollar", "The Yen" ],
-        correct_answer_q2: "The Yen"
+        question: "What is the main currency used in Japan?",
+        answers: [ "The Won", "The Baht", "The Dollar", "The Yen" ],
+        correct_answer: "The Yen"
       },
       {
-        question_3: "What is the approximate population of Japan in millions?",
-        answers_q3: [ "126", "79", "81", "65" ],
-        correct_answer_q3: "126"
+        question: "What is the approximate population of Japan in millions?",
+        answers: [ "126", "79", "81", "65" ],
+        correct_answer: "126"
       },
       {
-        question_4: "Which is the most populated city of Japan?",
-        answers_q4: [ "Tokyo", "Osaka", "Sapporo", "Kyoto" ],
-        correct_answer_q4: "Tokyo"
+        question: "Which is the most populated city of Japan?",
+        answers: [ "Tokyo", "Osaka", "Sapporo", "Kyoto" ],
+        correct_answer: "Tokyo"
       },
       {
-        question_5: "What is the national animal of Japan?",
-        answers_q5: [ "The Dog", "The Monkey", "The Wild Boar", "None!" ],
-        correct_answer_q5: "None!"
+        question: "What is the national animal of Japan?",
+        answers: [ "The Dog", "The Monkey", "The Wild Boar", "None!" ],
+        correct_answer: "None!"
       }
     ],
     hard: [
@@ -153,24 +153,24 @@ db.countries.insertMany([
         correct_answer: "The Ishikari"
       },
       {
-        question_2: "Which is the second most populated city of Japan?",
-        answers_q2: [ "Yokohama", "Osaka", "Sapporo", "Kyoto" ],
-        correct_answer_q2: "Yokohama"
+        question: "Which is the second most populated city of Japan?",
+        answers: [ "Yokohama", "Osaka", "Sapporo", "Kyoto" ],
+        correct_answer: "Yokohama"
       },
       {
-        question_3: "Which is the highest mountain in Japan?",
-        answers_q3: [ "Mount Yari", "Mount Aino", "Mount Kita", "Mount Fuji" ],
-        correct_answer_q3: "Mount Fuji"
+        question: "Which is the highest mountain in Japan?",
+        answers: [ "Mount Yari", "Mount Aino", "Mount Kita", "Mount Fuji" ],
+        correct_answer: "Mount Fuji"
       },
       {
-        question_4: "What is the most common faith practised in Japan?",
-        answers_q4: [ "Christianity", "Shinto", "Buddhism", "Hinduism" ],
-        correct_answer_q4: "Shinto"
+        question: "What is the most common faith practised in Japan?",
+        answers: [ "Christianity", "Shinto", "Buddhism", "Hinduism" ],
+        correct_answer: "Shinto"
       },
       {
-        question_5: "What is the population density per square kilometer of Japan?",
-        answers_q5: [ "245", "138", "110", "334" ],
-        correct_answer_q5: "334"
+        question: "What is the population density per square kilometer of Japan?",
+        answers: [ "245", "138", "110", "334" ],
+        correct_answer: "334"
       }
     ],
     lat_long: [35.6804, 139.7690],
@@ -186,24 +186,24 @@ db.countries.insertMany([
         correct_answer: "flag_url3"
       },
       {
-        question_2: "What is the capital city of the USA?",
-        answers_q2: [ "Washington DC", "New York", "London", "Milan" ],
-        correct_answer_q2: "Washington DC"
+        question: "What is the capital city of the USA?",
+        answers: [ "Washington DC", "New York", "London", "Milan" ],
+        correct_answer: "Washington DC"
       },
       {
-        question_3: "What is the main lanuguge spoken in the USA?",
-        answers_q3: [ "English", "French", "German", "Spanish" ],
-        correct_answer_q3: "English"
+        question: "What is the main lanuguge spoken in the USA?",
+        answers: [ "English", "French", "German", "Spanish" ],
+        correct_answer: "English"
       },
       {
-        question_4: "Which of these is a well known landmark in the USA?",
-        answers_q4: [ "London Bridge", "The Empire State Building", "Mount Fuji", "The Eiffel Tower" ],
-        correct_answer_q4: "The Empire State Building"
+        question: "Which of these is a well known landmark in the USA?",
+        answers: [ "London Bridge", "The Empire State Building", "Mount Fuji", "The Eiffel Tower" ],
+        correct_answer: "The Empire State Building"
       },
       {
-        question_5: "Which of these is a famous food from the USA?",
-        answers_q5: [ "Pizza", "Sushi", "Baguette", "Hamburgers" ],
-        correct_answer_q5: "Hamburgers"
+        question: "Which of these is a famous food from the USA?",
+        answers: [ "Pizza", "Sushi", "Baguette", "Hamburgers" ],
+        correct_answer: "Hamburgers"
       }
     ],
     medium: [
@@ -213,24 +213,24 @@ db.countries.insertMany([
         correct_answer: "Basball"
       },
       {
-        question_2: "What is the main currency used in the USA?",
-        answers_q2: [ "The Pound", "The Baht", "The Dollar", "The Yen" ],
-        correct_answer_q2: "The Dollar"
+        question: "What is the main currency used in the USA?",
+        answers: [ "The Pound", "The Baht", "The Dollar", "The Yen" ],
+        correct_answer: "The Dollar"
       },
       {
-        question_3: "What is the approximate population of the USA in millions?",
-        answers_q3: [ "327", "279", "181", "405" ],
-        correct_answer_q3: "327"
+        question: "What is the approximate population of the USA in millions?",
+        answers: [ "327", "279", "181", "405" ],
+        correct_answer: "327"
       },
       {
-        question_4: "Which is the most populated city of the USA?",
-        answers_q4: [ "Los Angeles", "Houston", "Chicago", "New York City" ],
-        correct_answer_q4: "New York City"
+        question: "Which is the most populated city of the USA?",
+        answers: [ "Los Angeles", "Houston", "Chicago", "New York City" ],
+        correct_answer: "New York City"
       },
       {
-        question_5: "What is the national animal of the USA?",
-        answers_q5: [ "The Dog", "The Bison", "The Bald Eagle", "The Bear" ],
-        correct_answer_q5: "The Bison"
+        question: "What is the national animal of the USA?",
+        answers: [ "The Dog", "The Bison", "The Bald Eagle", "The Bear" ],
+        correct_answer: "The Bison"
       }
     ],
     hard: [
@@ -240,27 +240,27 @@ db.countries.insertMany([
         correct_answer: "The Missouri"
       },
       {
-        question_2: "Which is the second most populated city of the USA?",
-        answers_q2: [ "Los Angeles", "Houston", "Chicago", "Philadelphia" ],
-        correct_answer_q2: "Los Angeles"
+        question: "Which is the second most populated city of the USA?",
+        answers: [ "Los Angeles", "Houston", "Chicago", "Philadelphia" ],
+        correct_answer: "Los Angeles"
       },
       {
-        question_3: "Which is the highest mountain in the USA?",
-        answers_q3: [ "The Denali", "Mount Massive", "Mount Sanford", "Mount Blackburn" ],
-        correct_answer_q3: "The Denali"
+        question: "Which is the highest mountain in the USA?",
+        answers: [ "The Denali", "Mount Massive", "Mount Sanford", "Mount Blackburn" ],
+        correct_answer: "The Denali"
       },
       {
-        question_4: "What is the most common faith practised in the USA?",
-        answers_q4: [ "Christianity", "Judaism", "Buddhism", "Islam" ],
-        correct_answer_q4: "Christianity"
+        question: "What is the most common faith practised in the USA?",
+        answers: [ "Christianity", "Judaism", "Buddhism", "Islam" ],
+        correct_answer: "Christianity"
       },
       {
-        question_5: "What is the population density per square kilometer of the USA?",
-        answers_q5: [ "245", "85", "110", "234" ],
-        correct_answer_q5: "85"
+        question: "What is the population density per square kilometer of the USA?",
+        answers: [ "245", "85", "110", "234" ],
+        correct_answer: "85"
       }
     ],
-    lat_long: "38.9072° N, 77.0369° W",
+    lat_long: [38.9072, 77.0369],
     flag: ""
   },
 
@@ -273,24 +273,24 @@ db.countries.insertMany([
         correct_answer: "flag_url4"
       },
       {
-        question_2: "What is the capital city of Russia?",
-        answers_q2: [ "Paris", "New York", "London", "Moscow" ],
-        correct_answer_q2: "Moscow"
+        question: "What is the capital city of Russia?",
+        answers: [ "Paris", "New York", "London", "Moscow" ],
+        correct_answer: "Moscow"
       },
       {
-        question_3: "What is the main lanuguge spoken in Russia?",
-        answers_q3: [ "English", "French", "German", "Russian" ],
-        correct_answer_q3: "Russian"
+        question: "What is the main lanuguge spoken in Russia?",
+        answers: [ "English", "French", "German", "Russian" ],
+        correct_answer: "Russian"
       },
       {
-        question_4: "Which of these is a well known landmark in Russia?",
-        answers_q4: [ "London Bridge", "The Empire State Building", "The Moscow Kremlin", "The Eiffel Tower" ],
-        correct_answer_q4: "The Moscow Kremlin"
+        question: "Which of these is a well known landmark in Russia?",
+        answers: [ "London Bridge", "The Empire State Building", "The Moscow Kremlin", "The Eiffel Tower" ],
+        correct_answer: "The Moscow Kremlin"
       },
       {
-        question_5: "Which of these is a famous food from Russia?",
-        answers_q5: [ "Borscht", "Sushi", "Baguette", "Hamburgers" ],
-        correct_answer_q5: "Borscht"
+        question: "Which of these is a famous food from Russia?",
+        answers: [ "Borscht", "Sushi", "Baguette", "Hamburgers" ],
+        correct_answer: "Borscht"
       }
     ],
     medium: [
@@ -300,24 +300,24 @@ db.countries.insertMany([
         correct_answer: "Bandy"
       },
       {
-        question_2: "What is the main currency used in Russia?",
-        answers_q2: [ "The Ruble", "The Krona", "The Dollar", "The Yen" ],
-        correct_answer_q2: "The Ruble"
+        question: "What is the main currency used in Russia?",
+        answers: [ "The Ruble", "The Krona", "The Dollar", "The Yen" ],
+        correct_answer: "The Ruble"
       },
       {
-        question_3: "What is the approximate population of Russia in millions?",
-        answers_q3: [ "147", "279", "191", "305" ],
-        correct_answer_q3: "147"
+        question: "What is the approximate population of Russia in millions?",
+        answers: [ "147", "279", "191", "305" ],
+        correct_answer: "147"
       },
       {
-        question_4: "Which is the most populated city of Russia?",
-        answers_q4: [ "St. Petersberg", "Moscow", "Samara", "Kazan" ],
-        correct_answer_q4: "Moscow"
+        question: "Which is the most populated city of Russia?",
+        answers: [ "St. Petersberg", "Moscow", "Samara", "Kazan" ],
+        correct_answer: "Moscow"
       },
       {
-        question_5: "What is the national animal of Russia?",
-        answers_q5: [ "The Dog", "The Siberian Tiger", "The Eagle", "The Brown Bear" ],
-        correct_answer_q5: "The Brown Bear"
+        question: "What is the national animal of Russia?",
+        answers: [ "The Dog", "The Siberian Tiger", "The Eagle", "The Brown Bear" ],
+        correct_answer: "The Brown Bear"
       }
     ],
     hard: [
@@ -327,27 +327,27 @@ db.countries.insertMany([
         correct_answer: "The Yenisei-Angara-Selenge"
       },
       {
-        question_2: "Which is the second most populated city of Russia?",
-        answers_q2: [ "St. Petersberg", "Novosibirik", "Samara", "Kazan" ],
-        correct_answer_q2: "St. Petersberg"
+        question: "Which is the second most populated city of Russia?",
+        answers: [ "St. Petersberg", "Novosibirik", "Samara", "Kazan" ],
+        correct_answer: "St. Petersberg"
       },
       {
-        question_3: "Which is the highest mountain in Russia?",
-        answers_q3: [ "Mount Jimara", "Mount Kazbek", "Mount Pushkin", "Mount Elbrus" ],
-        correct_answer_q3: "Mount Elbrus"
+        question: "Which is the highest mountain in Russia?",
+        answers: [ "Mount Jimara", "Mount Kazbek", "Mount Pushkin", "Mount Elbrus" ],
+        correct_answer: "Mount Elbrus"
       },
       {
-        question_4: "What is the most common faith practised in Russia?",
-        answers_q4: [ "Christianity", "Judaism", "Buddhism", "Islam" ],
-        correct_answer_q4: "Christianity"
+        question: "What is the most common faith practised in Russia?",
+        answers: [ "Christianity", "Judaism", "Buddhism", "Islam" ],
+        correct_answer: "Christianity"
       },
       {
-        question_5: "What is the population density per square kilometer of Russia?",
-        answers_q5: [ "9", "85", "43", "62" ],
-        correct_answer_q5: "9"
+        question: "What is the population density per square kilometer of Russia?",
+        answers: [ "9", "85", "43", "62" ],
+        correct_answer: "9"
       }
     ],
-      lat_long: "55.7558° N, 37.6173° E",
+      lat_long: [55.7558, 37.6173],
       flag: ""
   },
 
@@ -360,24 +360,24 @@ db.countries.insertMany([
         correct_answer: "flag_url1"
       },
       {
-        question_2: "What is the capital city of China?",
-        answers_q2: [ "Paris", "Beijing", "Tokyo", "Moscow" ],
-        correct_answer_q2: "Beijing"
+        question: "What is the capital city of China?",
+        answers: [ "Paris", "Beijing", "Tokyo", "Moscow" ],
+        correct_answer: "Beijing"
       },
       {
-        question_3: "What is the main lanuguge spoken in China?",
-        answers_q3: [ "English", "French", "Chinese", "Russian" ],
-        correct_answer_q3: "Chinese"
+        question: "What is the main lanuguge spoken in China?",
+        answers: [ "English", "French", "Chinese", "Russian" ],
+        correct_answer: "Chinese"
       },
       {
-        question_4: "Which of these is a well known landmark in China?",
-        answers_q4: [ "The Great Wall", "The Empire State Building", "The Moscow Kremlin", "The Eiffel Tower" ],
-        correct_answer_q4: "The Great Wall"
+        question: "Which of these is a well known landmark in China?",
+        answers: [ "The Great Wall", "The Empire State Building", "The Moscow Kremlin", "The Eiffel Tower" ],
+        correct_answer: "The Great Wall"
       },
       {
-        question_5: "Which of these is a famous food from China?",
-        answers_q5: [ "Borscht", "Sushi", "Chow Mein", "Hamburgers" ],
-        correct_answer_q5: "Chow Mein"
+        question: "Which of these is a famous food from China?",
+        answers: [ "Borscht", "Sushi", "Chow Mein", "Hamburgers" ],
+        correct_answer: "Chow Mein"
       }
     ],
     medium: [
@@ -387,24 +387,24 @@ db.countries.insertMany([
         correct_answer: "Ping-Pong"
       },
       {
-        question_2: "What is the main currency used in China?",
-        answers_q2: [ "The Yuan", "The Krona", "The Dollar", "The Yen" ],
-        correct_answer_q2: "The Yuan"
+        question: "What is the main currency used in China?",
+        answers: [ "The Yuan", "The Krona", "The Dollar", "The Yen" ],
+        correct_answer: "The Yuan"
       },
       {
-        question_3: "What is the approximate population of China in millions?",
-        answers_q3: [ "991", "1109", "591", "1386" ],
-        correct_answer_q3: "1386"
+        question: "What is the approximate population of China in millions?",
+        answers: [ "991", "1109", "591", "1386" ],
+        correct_answer: "1386"
       },
       {
-        question_4: "Which is the most populated city of China?",
-        answers_q4: [ "Shanghai", "Beijing", "Tianjin", "Shenzhen" ],
-        correct_answer_q4: "Shanghai"
+        question: "Which is the most populated city of China?",
+        answers: [ "Shanghai", "Beijing", "Tianjin", "Shenzhen" ],
+        correct_answer: "Shanghai"
       },
       {
-        question_5: "What is the national animal of China?",
-        answers_q5: [ "The Dog", "The Giant Panda", "The Monkey", "The Cat" ],
-        correct_answer_q5: "The Giant Panda"
+        question: "What is the national animal of China?",
+        answers: [ "The Dog", "The Giant Panda", "The Monkey", "The Cat" ],
+        correct_answer: "The Giant Panda"
       }
     ],
     hard: [
@@ -414,27 +414,27 @@ db.countries.insertMany([
         correct_answer: "The Yangtze"
       },
       {
-        question_2: "Which is the second most populated city of China?",
-        answers_q2: [ "Shanghai", "Beijing", "Tianjin", "Shenzhen" ],
-        correct_answer_q2: "Beijing"
+        question: "Which is the second most populated city of China?",
+        answers: [ "Shanghai", "Beijing", "Tianjin", "Shenzhen" ],
+        correct_answer: "Beijing"
       },
       {
-        question_3: "Which is the highest mountain in China?",
-        answers_q3: [ "K2", "Mount Lhotse", "Mount Makalu", "Mount Everest" ],
-        correct_answer_q3: "Mount Everest"
+        question: "Which is the highest mountain in China?",
+        answers: [ "K2", "Mount Lhotse", "Mount Makalu", "Mount Everest" ],
+        correct_answer: "Mount Everest"
       },
       {
-        question_4: "What is the most common faith practised in China?",
-        answers_q4: [ "Christianity", "Chinese Folklore", "Buddhism", "Islam" ],
-        correct_answer_q4: "Buddhism"
+        question: "What is the most common faith practised in China?",
+        answers: [ "Christianity", "Chinese Folklore", "Buddhism", "Islam" ],
+        correct_answer: "Buddhism"
       },
       {
-        question_5: "What is the population density per square kilometer of China?",
-        answers_q5: [ "145", "285", "83", "71" ],
-        correct_answer_q5: "145"
+        question: "What is the population density per square kilometer of China?",
+        answers: [ "145", "285", "83", "71" ],
+        correct_answer: "145"
       }
     ],
-      lat_long: "39.9042° N, 116.4074° E",
+      lat_long: [39.9042, 116.4074],
       flag: ""
   },
 
@@ -447,24 +447,24 @@ db.countries.insertMany([
         correct_answer: "flag_url2"
       },
       {
-        question_2: "What is the capital city of Brazil?",
-        answers_q2: [ "Brasilia", "New York", "Tokyo", "Moscow" ],
-        correct_answer_q2: "Brasilia"
+        question: "What is the capital city of Brazil?",
+        answers: [ "Brasilia", "New York", "Tokyo", "Moscow" ],
+        correct_answer: "Brasilia"
       },
       {
-        question_3: "What is the main lanuguge spoken in Brazil?",
-        answers_q3: [ "English", "French", "Chinese", "Portuguese" ],
-        correct_answer_q3: "Portuguese"
+        question: "What is the main lanuguge spoken in Brazil?",
+        answers: [ "English", "French", "Chinese", "Portuguese" ],
+        correct_answer: "Portuguese"
       },
       {
-        question_4: "Which of these is a well known landmark in Brazil?",
-        answers_q4: [ "Sugarloaf Mountain", "The Empire State Building", "The Moscow Kremlin", "The Eiffel Tower" ],
-        correct_answer_q4: "Sugarloaf Mountain"
+        question: "Which of these is a well known landmark in Brazil?",
+        answers: [ "Sugarloaf Mountain", "The Empire State Building", "The Moscow Kremlin", "The Eiffel Tower" ],
+        correct_answer: "Sugarloaf Mountain"
       },
       {
-        question_5: "Which of these is a famous food from Brazil?",
-        answers_q5: [ "Picanha", "Sushi", "Chow Mein", "Hamburgers" ],
-        correct_answer_q5: "Picanha"
+        question: "Which of these is a famous food from Brazil?",
+        answers: [ "Picanha", "Sushi", "Chow Mein", "Hamburgers" ],
+        correct_answer: "Picanha"
       }
     ],
     medium: [
@@ -474,24 +474,24 @@ db.countries.insertMany([
         correct_answer: "Football"
       },
       {
-        question_2: "What is the main currency used in Brazil?",
-        answers_q2: [ "The Peso", "The Krona", "The Dollar", "The Real" ],
-        correct_answer_q2: "The Real"
+        question: "What is the main currency used in Brazil?",
+        answers: [ "The Peso", "The Krona", "The Dollar", "The Real" ],
+        correct_answer: "The Real"
       },
       {
-        question_3: "What is the approximate population of Brazil in millions?",
-        answers_q3: [ "178", "301", "191", "210" ],
-        correct_answer_q3: "210"
+        question: "What is the approximate population of Brazil in millions?",
+        answers: [ "178", "301", "191", "210" ],
+        correct_answer: "210"
       },
       {
-        question_4: "Which is the most populated city of Brazil?",
-        answers_q4: [ "Salvador", "Brasilia", "Sao Paulo", "Rio De Janeiro" ],
-        correct_answer_q4: "Sao Paulo"
+        question: "Which is the most populated city of Brazil?",
+        answers: [ "Salvador", "Brasilia", "Sao Paulo", "Rio De Janeiro" ],
+        correct_answer: "Sao Paulo"
       },
       {
-        question_5: "What is the national animal of Brazil?",
-        answers_q5: [ "The Dog", "The Jaguar", "The Monkey", "The Cat" ],
-        correct_answer_q5: "The Jaguar"
+        question: "What is the national animal of Brazil?",
+        answers: [ "The Dog", "The Jaguar", "The Monkey", "The Cat" ],
+        correct_answer: "The Jaguar"
       }
     ],
     hard: [
@@ -501,27 +501,27 @@ db.countries.insertMany([
         correct_answer: "The Amazon"
       },
       {
-        question_2: "Which is the second most populated city of Brazil?",
-        answers_q2: [ "Salvador", "Brasilia", "Sao Paulo", "Rio De Janeiro" ],
-        correct_answer_q2: "Rio De Janeiro"
+        question: "Which is the second most populated city of Brazil?",
+        answers: [ "Salvador", "Brasilia", "Sao Paulo", "Rio De Janeiro" ],
+        correct_answer: "Rio De Janeiro"
       },
       {
-        question_3: "Which is the highest mountain in Brazil?",
-        answers_q3: [ "Pedra Da Mina", "Mount Roraima", "Pico Da Bandeira", "Pico Da Neblina" ],
-        correct_answer_q3: "Pico Da Neblina"
+        question: "Which is the highest mountain in Brazil?",
+        answers: [ "Pedra Da Mina", "Mount Roraima", "Pico Da Bandeira", "Pico Da Neblina" ],
+        correct_answer: "Pico Da Neblina"
       },
       {
-        question_4: "What is the most common faith practised in Brazil?",
-        answers_q4: [ "Roman Catholicism", "Judaism", "Buddhism", "Islam" ],
-        correct_answer_q4: "Roman Catholicism"
+        question: "What is the most common faith practised in Brazil?",
+        answers: [ "Roman Catholicism", "Judaism", "Buddhism", "Islam" ],
+        correct_answer: "Roman Catholicism"
       },
       {
-        question_5: "What is the population density per square kilometer of Brazil?",
-        answers_q5: [ "65", "25", "183", "91" ],
-        correct_answer_q5: "25"
+        question: "What is the population density per square kilometer of Brazil?",
+        answers: [ "65", "25", "183", "91" ],
+        correct_answer: "25"
       }
     ],
-      lat_long: "15.8267° S, 47.9218° W",
+      lat_long: [15.8267, 47.9218],
       flag: ""
   },
 
@@ -534,24 +534,24 @@ db.countries.insertMany([
         correct_answer: "flag_url3"
       },
       {
-        question_2: "What is the capital city of Australia?",
-        answers_q2: [ "Brasilia", "New York", "Tokyo", "Canberra" ],
-        correct_answer_q2: "Canberra"
+        question: "What is the capital city of Australia?",
+        answers: [ "Brasilia", "New York", "Tokyo", "Canberra" ],
+        correct_answer: "Canberra"
       },
       {
-        question_3: "What is the main lanuguge spoken in Australia?",
-        answers_q3: [ "English", "French", "Chinese", "Portuguese" ],
-        correct_answer_q3: "English"
+        question: "What is the main lanuguge spoken in Australia?",
+        answers: [ "English", "French", "Chinese", "Portuguese" ],
+        correct_answer: "English"
       },
       {
-        question_4: "Which of these is a well known landmark in Australia?",
-        answers_q4: [ "Sydney Opera House", "The Empire State Building", "The Moscow Kremlin", "The Eiffel Tower" ],
-        correct_answer_q4: "Sydney Opera House"
+        question: "Which of these is a well known landmark in Australia?",
+        answers: [ "Sydney Opera House", "The Empire State Building", "The Moscow Kremlin", "The Eiffel Tower" ],
+        correct_answer: "Sydney Opera House"
       },
       {
-        question_5: "Which of these is a famous food from Australia?",
-        answers_q5: [ "Vegemite", "Sushi", "Chow Mein", "Hamburgers" ],
-        correct_answer_q5: "Vegemite"
+        question: "Which of these is a famous food from Australia?",
+        answers: [ "Vegemite", "Sushi", "Chow Mein", "Hamburgers" ],
+        correct_answer: "Vegemite"
       }
     ],
     medium: [
@@ -561,24 +561,24 @@ db.countries.insertMany([
         correct_answer: "Cricket"
       },
       {
-        question_2: "What is the main currency used in Australia?",
-        answers_q2: [ "The Peso", "The Krona", "The Dollar", "The Pound" ],
-        correct_answer_q2: "The Dollar"
+        question: "What is the main currency used in Australia?",
+        answers: [ "The Peso", "The Krona", "The Dollar", "The Pound" ],
+        correct_answer: "The Dollar"
       },
       {
-        question_3: "What is the approximate population of Australia in millions?",
-        answers_q3: [ "25", "39", "9", "49" ],
-        correct_answer_q3: "25"
+        question: "What is the approximate population of Australia in millions?",
+        answers: [ "25", "39", "9", "49" ],
+        correct_answer: "25"
       },
       {
-        question_4: "Which is the most populated city of Australia?",
-        answers_q4: [ "Sydney", "Perth", "Brisbane", "Melbourne" ],
-        correct_answer_q4: "Sydney"
+        question: "Which is the most populated city of Australia?",
+        answers: [ "Sydney", "Perth", "Brisbane", "Melbourne" ],
+        correct_answer: "Sydney"
       },
       {
-        question_5: "What is the national animal of Australia?",
-        answers_q5: [ "The Kangaroo", "The Dingo", "The Koala", "The Wombat" ],
-        correct_answer_q5: "The Kangaroo"
+        question: "What is the national animal of Australia?",
+        answers: [ "The Kangaroo", "The Dingo", "The Koala", "The Wombat" ],
+        correct_answer: "The Kangaroo"
       }
     ],
     hard: [
@@ -588,27 +588,27 @@ db.countries.insertMany([
         correct_answer: "The Murray"
       },
       {
-        question_2: "Which is the second most populated city of Australia?",
-        answers_q2: [ "Sydney", "Perth", "Brisbane", "Melbourne" ],
-        correct_answer_q2: "Melbourne"
+        question: "Which is the second most populated city of Australia?",
+        answers: [ "Sydney", "Perth", "Brisbane", "Melbourne" ],
+        correct_answer: "Melbourne"
       },
       {
-        question_3: "Which is the highest mountain in Australia?",
-        answers_q3: [ "Mount Townsend", "Mount Kosciuszko", "Rams Head", "Alice Rawson Peak" ],
-        correct_answer_q3: "Mount Kosciuszko"
+        question: "Which is the highest mountain in Australia?",
+        answers: [ "Mount Townsend", "Mount Kosciuszko", "Rams Head", "Alice Rawson Peak" ],
+        correct_answer: "Mount Kosciuszko"
       },
       {
-        question_4: "What is the most common faith practised in Australia?",
-        answers_q4: [ "Christianity", "Judaism", "Buddhism", "Islam" ],
-        correct_answer_q4: "Christianity"
+        question: "What is the most common faith practised in Australia?",
+        answers: [ "Christianity", "Judaism", "Buddhism", "Islam" ],
+        correct_answer: "Christianity"
       },
       {
-        question_5: "What is the population density per square kilometer of Australia?",
-        answers_q5: [ "16", "3", "37", "41" ],
-        correct_answer_q5: "3"
+        question: "What is the population density per square kilometer of Australia?",
+        answers: [ "16", "3", "37", "41" ],
+        correct_answer: "3"
       }
     ],
-      lat_long: "35.2809° S, 149.1300° E",
+      lat_long: [35.2809, 149.1300],
       flag: ""
   },
 
@@ -621,24 +621,24 @@ db.countries.insertMany([
         correct_answer: "flag_url4"
       },
       {
-        question_2: "What is the capital city of India?",
-        answers_q2: [ "London", "New Delhi", "Tokyo", "Canberra" ],
-        correct_answer_q2: "New Delhi"
+        question: "What is the capital city of India?",
+        answers: [ "London", "New Delhi", "Tokyo", "Canberra" ],
+        correct_answer: "New Delhi"
       },
       {
-        question_3: "What is the main lanuguge spoken in India?",
-        answers_q3: [ "English", "Hindi", "Chinese", "Portuguese" ],
-        correct_answer_q3: "Hindi"
+        question: "What is the main lanuguge spoken in India?",
+        answers: [ "English", "Hindi", "Chinese", "Portuguese" ],
+        correct_answer: "Hindi"
       },
       {
-        question_4: "Which of these is a well known landmark in India?",
-        answers_q4: [ "Sydney Opera House", "The Empire State Building", "The Taj Mahal", "The Eiffel Tower" ],
-        correct_answer_q4: "Taj Mahal"
+        question: "Which of these is a well known landmark in India?",
+        answers: [ "Sydney Opera House", "The Empire State Building", "The Taj Mahal", "The Eiffel Tower" ],
+        correct_answer: "Taj Mahal"
       },
       {
-        question_5: "Which of these is a famous food from India?",
-        answers_q5: [ "Vegemite", "Sushi", "Chow Mein", "Naan Bread" ],
-        correct_answer_q5: "Naan Bread"
+        question: "Which of these is a famous food from India?",
+        answers: [ "Vegemite", "Sushi", "Chow Mein", "Naan Bread" ],
+        correct_answer: "Naan Bread"
       }
     ],
     medium: [
@@ -648,24 +648,24 @@ db.countries.insertMany([
         correct_answer: "None!"
       },
       {
-        question_2: "What is the main currency used in India?",
-        answers_q2: [ "The Rupee", "The Krona", "The Dollar", "The Dinar" ],
-        correct_answer_q2: "The Rupee"
+        question: "What is the main currency used in India?",
+        answers: [ "The Rupee", "The Krona", "The Dollar", "The Dinar" ],
+        correct_answer: "The Rupee"
       },
       {
-        question_3: "What is the approximate population of India in millions?",
-        answers_q3: [ "1102", "894", "909", "1350" ],
-        correct_answer_q3: "1350"
+        question: "What is the approximate population of India in millions?",
+        answers: [ "1102", "894", "909", "1350" ],
+        correct_answer: "1350"
       },
       {
-        question_4: "Which is the most populated city of India?",
-        answers_q4: [ "Mumbai", "Bangalore", "Kolkata", "New Delhi" ],
-        correct_answer_q4: "Mumbai"
+        question: "Which is the most populated city of India?",
+        answers: [ "Mumbai", "Bangalore", "Kolkata", "New Delhi" ],
+        correct_answer: "Mumbai"
       },
       {
-        question_5: "What is the national animal of India?",
-        answers_q5: [ "The Monkey", "The Bengal Tiger", "The Cow", "The Dog" ],
-        correct_answer_q5: "The Bengal Tiger"
+        question: "What is the national animal of India?",
+        answers: [ "The Monkey", "The Bengal Tiger", "The Cow", "The Dog" ],
+        correct_answer: "The Bengal Tiger"
       }
     ],
     hard: [
@@ -675,27 +675,27 @@ db.countries.insertMany([
         correct_answer: "The Indus"
       },
       {
-        question_2: "Which is the second most populated city of India?",
-        answers_q2: [ "Mumbai", "Bangalore", "Kolkata", "New Delhi" ],
-        correct_answer_q2: "New Delhi"
+        question: "Which is the second most populated city of India?",
+        answers: [ "Mumbai", "Bangalore", "Kolkata", "New Delhi" ],
+        correct_answer: "New Delhi"
       },
       {
-        question_3: "Which is the highest mountain in India?",
-        answers_q3: [ "Mount Kamet", "Mount Nanda Devi", "K12", "Mount Kanchenjunga" ],
-        correct_answer_q3: "Mount Kanchenjunga"
+        question: "Which is the highest mountain in India?",
+        answers: [ "Mount Kamet", "Mount Nanda Devi", "K12", "Mount Kanchenjunga" ],
+        correct_answer: "Mount Kanchenjunga"
       },
       {
-        question_4: "What is the most common faith practised in India?",
-        answers_q4: [ "Hinduism", "Sikhism", "Buddhism", "Islam" ],
-        correct_answer_q4: "Hinduism"
+        question: "What is the most common faith practised in India?",
+        answers: [ "Hinduism", "Sikhism", "Buddhism", "Islam" ],
+        correct_answer: "Hinduism"
       },
       {
-        question_5: "What is the population density per square kilometer of India?",
-        answers_q5: [ "415", "302", "289", "350" ],
-        correct_answer_q5: "415"
+        question: "What is the population density per square kilometer of India?",
+        answers: [ "415", "302", "289", "350" ],
+        correct_answer: "415"
       }
     ],
-      lat_long: "28.6139° N, 77.2090° E",
+      lat_long: [28.6139, 77.2090],
       flag: ""
   },
 
@@ -708,24 +708,24 @@ db.countries.insertMany([
         correct_answer: "flag_url1"
       },
       {
-        question_2: "What is the capital city of South Africa?",
-        answers_q2: [ "London", "New Delhi", "Tokyo", "Pretoria" ],
-        correct_answer_q2: "Pretoria"
+        question: "What is the capital city of South Africa?",
+        answers: [ "London", "New Delhi", "Tokyo", "Pretoria" ],
+        correct_answer: "Pretoria"
       },
       {
-        question_3: "What is the main lanuguge spoken in South Africa?",
-        answers_q3: [ "English", "Zulu", "French", "Portuguese" ],
-        correct_answer_q3: "Zulu"
+        question: "What is the main lanuguge spoken in South Africa?",
+        answers: [ "English", "Zulu", "French", "Portuguese" ],
+        correct_answer: "Zulu"
       },
       {
-        question_4: "Which of these is a well known landmark in South Africa?",
-        answers_q4: [ "Sydney Opera House", "Table Mountain", "The Taj Mahal", "The Eiffel Tower" ],
-        correct_answer_q4: "Table Mountain"
+        question: "Which of these is a well known landmark in South Africa?",
+        answers: [ "Sydney Opera House", "Table Mountain", "The Taj Mahal", "The Eiffel Tower" ],
+        correct_answer: "Table Mountain"
       },
       {
-        question_5: "Which of these is a famous food from South Africa?",
-        answers_q5: [ "Vegemite", "Sushi", "Chow Mein", "Biltong" ],
-        correct_answer_q5: "Biltong"
+        question: "Which of these is a famous food from South Africa?",
+        answers: [ "Vegemite", "Sushi", "Chow Mein", "Biltong" ],
+        correct_answer: "Biltong"
       }
     ],
     medium: [
@@ -735,24 +735,24 @@ db.countries.insertMany([
         correct_answer: "None!"
       },
       {
-        question_2: "What is the main currency used in South Africa?",
-        answers_q2: [ "The Rupee", "The Krona", "The Dollar", "The Rand" ],
-        correct_answer_q2: "The Rand"
+        question: "What is the main currency used in South Africa?",
+        answers: [ "The Rupee", "The Krona", "The Dollar", "The Rand" ],
+        correct_answer: "The Rand"
       },
       {
-        question_3: "What is the approximate population of South Africa in millions?",
-        answers_q3: [ "58", "102", "39", "65" ],
-        correct_answer_q3: "58"
+        question: "What is the approximate population of South Africa in millions?",
+        answers: [ "58", "102", "39", "65" ],
+        correct_answer: "58"
       },
       {
-        question_4: "Which is the most populated city of South Africa?",
-        answers_q4: [ "Cape Town", "Johannesburg", "Pretoria", "Durban" ],
-        correct_answer_q4: "Cape Town"
+        question: "Which is the most populated city of South Africa?",
+        answers: [ "Cape Town", "Johannesburg", "Pretoria", "Durban" ],
+        correct_answer: "Cape Town"
       },
       {
-        question_5: "What is the national animal of South Africa?",
-        answers_q5: [ "The Springbok", "The Lion", "The Elephant", "The Leopard" ],
-        correct_answer_q5: "The Springbok"
+        question: "What is the national animal of South Africa?",
+        answers: [ "The Springbok", "The Lion", "The Elephant", "The Leopard" ],
+        correct_answer: "The Springbok"
       }
     ],
     hard: [
@@ -762,27 +762,27 @@ db.countries.insertMany([
         correct_answer: "The Orange"
       },
       {
-        question_2: "Which is the second most populated city of South Africa?",
-        answers_q2: [ "Cape Town", "Johannesburg", "Pretoria", "Durban" ],
-        correct_answer_q2: "Johannesburg"
+        question: "Which is the second most populated city of South Africa?",
+        answers: [ "Cape Town", "Johannesburg", "Pretoria", "Durban" ],
+        correct_answer: "Johannesburg"
       },
       {
-        question_3: "Which is the highest mountain in South Africa?",
-        answers_q3: [ "Mount Thabana Ntlenyana", "Red Wall Peak", "Mount Mafadi", "Mount Makheka" ],
-        correct_answer_q3: "Mount Thabana Ntlenyana"
+        question: "Which is the highest mountain in South Africa?",
+        answers: [ "Mount Thabana Ntlenyana", "Red Wall Peak", "Mount Mafadi", "Mount Makheka" ],
+        correct_answer: "Mount Thabana Ntlenyana"
       },
       {
-        question_4: "What is the most common faith practised in South Africa?",
-        answers_q4: [ "Christianity", "Judaism", "Buddhism", "Islam" ],
-        correct_answer_q4: "Christianity"
+        question: "What is the most common faith practised in South Africa?",
+        answers: [ "Christianity", "Judaism", "Buddhism", "Islam" ],
+        correct_answer: "Christianity"
       },
       {
-        question_5: "What is the population density per square kilometer of South Africa?",
-        answers_q5: [ "28", "42", "89", "97" ],
-        correct_answer_q5: "42"
+        question: "What is the population density per square kilometer of South Africa?",
+        answers: [ "28", "42", "89", "97" ],
+        correct_answer: "42"
       }
     ],
-      lat_long: "25.7479° S, 28.2293° E",
+      lat_long: [25.7479, 28.2293],
       flag: ""
   },
 
@@ -795,24 +795,24 @@ db.countries.insertMany([
         correct_answer: "flag_url2"
       },
       {
-        question_2: "What is the capital city of Scotland?",
-        answers_q2: [ "London", "New Delhi", "Tokyo", "Edinburgh" ],
-        correct_answer_q2: "Edinburgh"
+        question: "What is the capital city of Scotland?",
+        answers: [ "London", "New Delhi", "Tokyo", "Edinburgh" ],
+        correct_answer: "Edinburgh"
       },
       {
-        question_3: "What is the main lanuguge spoken in Scotland?",
-        answers_q3: [ "English", "Spanish", "French", "Portuguese" ],
-        correct_answer_q3: "English"
+        question: "What is the main lanuguge spoken in Scotland?",
+        answers: [ "English", "Spanish", "French", "Portuguese" ],
+        correct_answer: "English"
       },
       {
-        question_4: "Which of these is a well known landmark in Scotland?",
-        answers_q4: [ "Sydney Opera House", "Edinburgh Castle", "The Taj Mahal", "The Eiffel Tower" ],
-        correct_answer_q4: "Edinburgh Castle"
+        question: "Which of these is a well known landmark in Scotland?",
+        answers: [ "Sydney Opera House", "Edinburgh Castle", "The Taj Mahal", "The Eiffel Tower" ],
+        correct_answer: "Edinburgh Castle"
       },
       {
-        question_5: "Which of these is a famous food from Scotland?",
-        answers_q5: [ "Vegemite", "Sushi", "Chow Mein", "Haggis" ],
-        correct_answer_q5: "Haggis"
+        question: "Which of these is a famous food from Scotland?",
+        answers: [ "Vegemite", "Sushi", "Chow Mein", "Haggis" ],
+        correct_answer: "Haggis"
       }
     ],
     medium: [
@@ -822,24 +822,24 @@ db.countries.insertMany([
         correct_answer: "Football"
       },
       {
-        question_2: "What is the main currency used in Scotland?",
-        answers_q2: [ "The Pound", "The Krona", "The Dollar", "The Peso" ],
-        correct_answer_q2: "The Pound"
+        question: "What is the main currency used in Scotland?",
+        answers: [ "The Pound", "The Krona", "The Dollar", "The Peso" ],
+        correct_answer: "The Pound"
       },
       {
-        question_3: "What is the approximate population of Scotland in millions?",
-        answers_q3: [ "5.5", "10.2", "6.7", "2.3" ],
-        correct_answer_q3: "5.5"
+        question: "What is the approximate population of Scotland in millions?",
+        answers: [ "5.5", "10.2", "6.7", "2.3" ],
+        correct_answer: "5.5"
       },
       {
-        question_4: "Which is the most populated city of Scotland?",
-        answers_q4: [ "Aderdeen", "Edinburgh", "Dundee", "Glasgow" ],
-        correct_answer_q4: "Glasgow"
+        question: "Which is the most populated city of Scotland?",
+        answers: [ "Aderdeen", "Edinburgh", "Dundee", "Glasgow" ],
+        correct_answer: "Glasgow"
       },
       {
-        question_5: "What is the national animal of Scotland?",
-        answers_q5: [ "The Deer", "The Lion", "The Golden Eagle", "The Unicorn" ],
-        correct_answer_q5: "The Unicorn"
+        question: "What is the national animal of Scotland?",
+        answers: [ "The Deer", "The Lion", "The Golden Eagle", "The Unicorn" ],
+        correct_answer: "The Unicorn"
       }
     ],
     hard: [
@@ -849,27 +849,27 @@ db.countries.insertMany([
         correct_answer: "The Tay"
       },
       {
-        question_2: "Which is the second most populated city of Scotland?",
-        answers_q2: [ "Aderdeen", "Edinburgh", "Dundee", "Glasgow" ],
-        correct_answer_q2: "Edinburgh"
+        question: "Which is the second most populated city of Scotland?",
+        answers: [ "Aderdeen", "Edinburgh", "Dundee", "Glasgow" ],
+        correct_answer: "Edinburgh"
       },
       {
-        question_3: "Which is the highest mountain in Scotland?",
-        answers_q3: [ "Ben Nevis", "Ben Macdui", "Cairn Gorm", "Cairn Toul" ],
-        correct_answer_q3: "Ben Nevis"
+        question: "Which is the highest mountain in Scotland?",
+        answers: [ "Ben Nevis", "Ben Macdui", "Cairn Gorm", "Cairn Toul" ],
+        correct_answer: "Ben Nevis"
       },
       {
-        question_4: "What is the most common faith practised in Scotland?",
-        answers_q4: [ "Christianity", "Hinduism", "Buddhism", "Islam" ],
-        correct_answer_q4: "Christianity"
+        question: "What is the most common faith practised in Scotland?",
+        answers: [ "Christianity", "Hinduism", "Buddhism", "Islam" ],
+        correct_answer: "Christianity"
       },
       {
-        question_5: "What is the population density per square kilometer of Scotland?",
-        answers_q5: [ "33", "68", "49", "91" ],
-        correct_answer_q5: "68"
+        question: "What is the population density per square kilometer of Scotland?",
+        answers: [ "33", "68", "49", "91" ],
+        correct_answer: "68"
       }
     ],
-      lat_long: "55.9533° N, 3.1883° W",
+      lat_long: [55.9533, 3.1883],
       flag: ""
   }
 
