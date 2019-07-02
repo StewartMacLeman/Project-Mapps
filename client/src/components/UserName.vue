@@ -28,7 +28,7 @@ export default {
 
 <style lang="css" scoped>
 .label {
-  width: 70%;
+  width: 70vw;
   margin: 40px;
 }
 

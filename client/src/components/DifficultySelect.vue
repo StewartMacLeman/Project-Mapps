@@ -48,10 +48,16 @@ export default {
   align-items: center;
 }
 
+.label {
+  width: 70vw;
+  margin: 40px;
+}
+
 select {
   text-align-last:center;
   width: 25vw;
   font-size: 20px;
+  margin: 0 0 40px;
  }
 
  button {
