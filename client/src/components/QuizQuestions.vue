@@ -118,6 +118,7 @@ export default {
     eventBus.$on('difficulty-selected', (difficulty) =>{
       this.selectedCountryQuestions = difficulty
     })
+    eventBus.$emit('show-ollie', true)
 
   }
 }
