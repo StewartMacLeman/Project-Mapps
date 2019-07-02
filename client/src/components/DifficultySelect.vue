@@ -39,7 +39,7 @@ export default {
 
 <style lang="css" scoped>
 
-.country-select {
+.difficulty-select {
   display: flex;
   flex-direction: column;
   width: 75vw;
