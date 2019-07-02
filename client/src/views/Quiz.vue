@@ -6,7 +6,7 @@
     <div class="quiz">
       <QuizQuestions :selectedCountry="selectedCountry" :username="username"></QuizQuestions>
     </div>
-    <div class="profile">
+    <div class="sidebar">
       <Profile :selectedCountry="selectedCountry" :username="username"></Profile>
     </div>
   </div>

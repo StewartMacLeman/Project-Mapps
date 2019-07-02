@@ -9,7 +9,11 @@
     <div class="box content">
       <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry" :maps="maps"></router-view>
     </div>
+
+  <div class="box character">
+    <p>Image here</p>
   </div>
+    </div>
 
   </div>
 
@@ -70,12 +74,14 @@ nav {
   grid-gap: 10px;
   grid-template-columns: 20vw 37vw 37vw;
   grid-template-areas:
-  "sidebar header header"
+  "header content content"
   "sidebar content content"
   "sidebar content content"
   "sidebar content content"
-  "sidebar content content"
-  "sidebar  content  content";
+  "character content content"
+  "character  content  content"
+  "character content content"
+  "character  content  content";
   background-color: #fff;
   color: #444;
 }
@@ -97,6 +103,12 @@ nav {
   display: flex;
   align-content: space-around;
 }
+.character {
+  grid-area: character;
+  height: 20vh;
+  display: flex;
+  align-content: space-around;
+}
 
 .header {
   grid-area: header;
@@ -109,7 +121,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 80vh;
+  height: 10vh;
   margin-top: 5vh;
   margin-bottom: 5vh
 }
