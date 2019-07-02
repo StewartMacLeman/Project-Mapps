@@ -4,7 +4,7 @@
       <l-tile-layer :url="url"></l-tile-layer>
     </l-map>
     <select v-model="url">
-      <option v-for="map in maps" :value="map.url">{{map.name}}</option>
+      <option v-for="map in maps" :value="map.url">{{map.name.toUpperCase()}}</option>
     </select>
   </div>
 </template>

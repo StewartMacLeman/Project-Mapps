@@ -148,8 +148,17 @@ button:hover {
   color: #3870a0
 }
 
+h1 {
+  color: #3870a0;
+}
+
+p {
+  color: #3870a0;
+}
+
 .questions {
   display: flex;
+  color: #439fef;
   margin: 10px;
   justify-content: space-between;
 }

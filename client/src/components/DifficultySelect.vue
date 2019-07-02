@@ -6,9 +6,9 @@
     <label for="selectDifficulty" class="label">Okay {{username}} we're going to learn about {{this.selectedCountry.name}}. But I warn you, my easy tests are hard and my hard tests are... diabolical. How difficult should the quiz be?</label>
     <select v-model="selectedCountryDifficulty"  style="text-align:center;" required>
       <option disabled value=""  style="text-align:center;">Select Difficulty</option>
-      <option  :value="this.selectedCountry.easy"  style="text-align:center;">Easy</option>
-      <option  :value="this.selectedCountry.medium"  style="text-align:center;">Medium</option>
-      <option  :value="this.selectedCountry.hard"  style="text-align:center;">Hard</option>
+      <option  :value="this.selectedCountry.easy"  style="text-align:center;">EASY</option>
+      <option  :value="this.selectedCountry.medium"  style="text-align:center;">MEDIUM</option>
+      <option  :value="this.selectedCountry.hard"  style="text-align:center;">HARD</option>
     </select>
     <button v-if="selectedCountryDifficulty" v-on:click="handleClick" onclick="window.location.href = 'http://localhost:8080/#/quiz';" type="button" name="button">Start quiz!</button>
   </div>

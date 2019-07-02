@@ -52,7 +52,7 @@ button {
 
 button:hover {
   background-color: white;
-  color: #3870a0
+  color: #3870a0;
 }
 
 input {
@@ -60,5 +60,10 @@ input {
   width: 200px;
   font-size: 20px;
   margin: 20px;
+}
+
+input[type=text]{
+  color:#3870a0;
+  outline: none;
 }
 </style>
