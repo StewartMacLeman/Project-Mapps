@@ -107,6 +107,7 @@ export default {
 
     clearProfile(){
       eventBus.$emit('clear-profile', false)
+      eventBus.$emit('clear-ollie', false)
     }
 
 
@@ -132,7 +133,8 @@ button {
   color: white;
   background-color: #3870a0;
   font-size: 20px;
-  border-radius: 15px
+  border-radius: 15px;
+  margin: 10px;
 }
 .questions {
   display: flex;

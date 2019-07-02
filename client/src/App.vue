@@ -60,6 +60,9 @@ export default {
     eventBus.$on('show-ollie', (change) => {
       this.showOllie = change
     })
+    eventBus.$on('clear-ollie', (change) => {
+      this.showOllie = change
+    })
   },
   components: {
     Profile
