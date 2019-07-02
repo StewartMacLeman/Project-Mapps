@@ -5,7 +5,7 @@
     <div class="box header">M-Apps!...</div>
     <div class="sidebar">
       <router-link :to="{ name: 'home' }">Home</router-link>
-      <Profile></Profile>
+      <Profile :selectedCountry="selectedCountry"></Profile>
     </div>
     <div class="box content">
       <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry" :maps="maps"></router-view>

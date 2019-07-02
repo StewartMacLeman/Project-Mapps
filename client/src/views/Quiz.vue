@@ -44,7 +44,6 @@ export default {
 
 .map {
   grid-area: map;
-  width: 70vw
 }
 
 .quiz {
@@ -55,6 +54,16 @@ export default {
 .profile {
   grid-area: profile;
   width: 30vw
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #439fef;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  align-items: center;
 }
 
 </style>
