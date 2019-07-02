@@ -1,7 +1,7 @@
 <template lang="html">
 
   <div class="difficulty-select">
-    <label for="selectDifficulty">Choose a difficulty level</label>
+    <label class="label" for="selectDifficulty">Well, now I guess we should see how you're feeling? Honestly my easy tests are hard and my hard tests are... diabolical. But how lucky are you feeling?</label>
     <select v-model="selectedCountryDifficulty"  style="text-align:center;" required>
       <option disabled value=""  style="text-align:center;">Select Difficulty</option>
       <option  :value="this.selectedCountry.easy"  style="text-align:center;">Easy</option>
@@ -46,10 +46,16 @@ export default {
   align-items: center;
 }
 
+.label {
+  width: 70vw;
+  margin: 40px;
+}
+
 select {
   text-align-last:center;
   width: 25vw;
   font-size: 20px;
+  margin: 0 0 40px;
  }
 
  button {
