@@ -115,9 +115,12 @@ export default {
   },
   mounted() {
     eventBus.$on('country-selected', (country) =>{
-      this.selectedCountryQuestions = country.easy,
       this.zoomArray = country.zooms
     })
+    eventBus.$on('difficulty-selected', (difficulty) =>{
+      this.selectedCountryQuestions = difficulty
+    })
+
   }
 }
 </script>
