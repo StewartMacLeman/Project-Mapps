@@ -4,7 +4,7 @@
     <div v-if="firstQuestion" class="first-question">
     <p>{{selectedCountryQuestions[0].question}}</p>
     <br>
-    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="95px" width="135px"></button>
+    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="80px" width="120px"></button>
     </div>
 
 
@@ -142,6 +142,12 @@ button {
   border-radius: 15px;
   margin: 10px;
 }
+
+button:hover {
+  background-color: white;
+  color: #3870a0
+}
+
 .questions {
   display: flex;
   margin: 10px;
@@ -156,7 +162,11 @@ button {
 
 .first-question button {
   background-color: white;
+  border-color: white;
+}
 
+.first-question button:hover{
+  background-color: #3870a0
 }
 
 .navigation-buttons {
