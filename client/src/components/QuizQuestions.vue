@@ -17,11 +17,11 @@
     <div v-if="showResult" class="quiz-result" >
       <h1>{{username}}... You scored {{correctAnswers}} out of 5!</h1>
       <p v-if="correctAnswers === 0">Unlucky {{username}}. But you've learnt a lot today. Let's try again?</p>
-      <p v-if="correctAnswers === 1">Well, that's a start {{username}}! That's pretty good {{username}}. I wonder if you get better second time around...</p>
-      <p v-if="correctAnswers === 2">That's a decent score {{username}}! I bet next time you do even better...</p>
+      <p v-if="correctAnswers === 1">Well, that's a start {{username}}! I wonder if you get better second time around...</p>
+      <p v-if="correctAnswers === 2">That's a decent score {{username}}! I bet next time you can do even better...</p>
       <p v-if="correctAnswers === 3">Not bad at all {{username}}! Maybe one day you'll beat me.</p>
-      <p v-if="correctAnswers === 4">Woah! That's pretty good {{username}}. You've got me sweating here... I don't think you should play any more.</p>
-      <p v-if="correctAnswers === 5">You beat me! Blast you and your smarts, {{username}}! I bet you can't do it for Russia on hard!</p>
+      <p v-if="correctAnswers === 4">Woah! That's pretty good {{username}}. You've got me sweating here... I don't think you should play anymore {{username}}.</p>
+      <p v-if="correctAnswers === 5">You beat me! Blast you and your smarts, {{username}}!</p>
     </div>
 
     <div v-if="showResult" class="navigation-buttons">
