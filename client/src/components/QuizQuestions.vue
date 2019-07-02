@@ -20,7 +20,7 @@
       <p v-if="correctAnswers === 1">Well, that's a start {{username}}! That's pretty good {{username}}. I wonder if you get better second time around...</p>
       <p v-if="correctAnswers === 2">That's a decent score {{username}}! I bet next time you can do even better...</p>
       <p v-if="correctAnswers === 3">Not bad at all {{username}}! Maybe one day you'll beat me.</p>
-      <p v-if="correctAnswers === 4">Woah! That's pretty good {{username}}. You've got me sweating here... I don't think you should play any more.</p>
+      <p v-if="correctAnswers === 4">Woah! That's pretty good {{username}}. You've got me sweating here... I don't think you should play anymore {{username}}.</p>
       <p v-if="correctAnswers === 5">You beat me! Blast you and your smarts, {{username}}!</p>
     </div>
 
