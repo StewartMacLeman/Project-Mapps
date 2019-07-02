@@ -1,5 +1,6 @@
 <template lang="html">
   <div class="country-select">
+    <img src="/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
     <label for="selectCountry" class="label">Well it's nice to meet you {{this.username}}. My superpower is I know everything there is to know about geography... I'm pretty darn smart. I've built some quizzes and I bet you can't get all the right answers. If you think I'm wrong go ahead and pick a country.</label>
     <select required v-model="selectedCountry"  style="text-align:center;">
       <option disabled>Select Country</option>

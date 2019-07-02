@@ -124,7 +124,7 @@ export default {
 
 button {
   height: 60px;
-  width: 200px;
+  width: 180px;
   color: white;
   background-color: #3870a0;
   font-size: 20px;

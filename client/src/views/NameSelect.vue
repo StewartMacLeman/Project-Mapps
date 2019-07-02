@@ -26,6 +26,7 @@ export default {
   flex-direction: column;
   align-content: center;
   width: 75vw;
+  height: 80vh;
 }
 
 </style>

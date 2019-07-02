@@ -11,8 +11,13 @@
       <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry" :maps="maps"></router-view>
     </div>
 
-  <div class="box character">
-    <img src="../public/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
+  <div  class="box character">
+    <div v-if="showOllie" class="ollie">
+      <img src="../public/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
+    </div>
+    <div v-if="!showOllie" class="mi">
+      <button type="button" name="button">Boring stuff for teachers</button>
+    </div>
   </div>
     </div>
 
@@ -34,7 +39,8 @@ export default {
       countries: [],
       maps: [],
       username: "",
-      selectedCountry: ""
+      selectedCountry: "",
+      showOllie: false
     }
   },
   mounted() {
@@ -50,6 +56,9 @@ export default {
 
     eventBus.$on('country-selected', (country) =>{
       this.selectedCountry = country
+    })
+    eventBus.$on('show-ollie', (change) => {
+      this.showOllie = change
     })
   },
   components: {
@@ -100,7 +109,7 @@ nav {
   background-color: #439fef;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   height: auto;
   align-items: center;
   /* background-image: url('./assets/images/france.png'); */
@@ -133,7 +142,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 10vh;
+  height: 60px;
+  width: 200px;
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
@@ -153,6 +163,18 @@ nav {
   padding: 10px;
   font-size: 150%;
 }
+
+button {
+  height: 60px;
+  width: 15vw;
+  color: white;
+  background-color: #3870a0;
+  font-size: 20px;
+  border-radius: 15px;
+  border-color: #3870a0;
+}
+
+
 
 
 </style>
