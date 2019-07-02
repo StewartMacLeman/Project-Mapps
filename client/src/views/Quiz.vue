@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="quiz-map">
     <div class="map">
-      <WorldMap></WorldMap>
+      <WorldMap :maps="maps"></WorldMap>
     </div>
     <div class="quiz">
       <QuizQuestions :selectedCountry="selectedCountry" :username="username"></QuizQuestions>
@@ -19,7 +19,7 @@ import WorldMap from '@/components/WorldMap.vue'
 import Profile from "@/components/Profile.vue"
 
 export default {
-  props: ['selectedCountry', 'username'],
+  props: ['selectedCountry', 'username', 'maps'],
   components: {
     QuizQuestions,
     WorldMap,

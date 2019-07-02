@@ -14,6 +14,7 @@ export default {
       return this.selectedCountry.lat_long
     }
   },
+  props: ['maps'],
   data() {
     return {
       url: `https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?access_token=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ`,
