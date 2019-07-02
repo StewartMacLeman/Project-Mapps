@@ -14,6 +14,7 @@
   <div  class="box character">
     <div v-if="showOllie" class="ollie">
       <img src="../public/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
+      <h3>"Good luck {{username}}"</h3>
     </div>
     <div v-if="!showOllie" class="mi">
       <button type="button" name="button">Boring stuff for teachers</button>
@@ -58,6 +59,9 @@ export default {
       this.selectedCountry = country
     })
     eventBus.$on('show-ollie', (change) => {
+      this.showOllie = change
+    })
+    eventBus.$on('clear-ollie', (change) => {
       this.showOllie = change
     })
   },

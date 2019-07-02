@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="country-view">
-  <CountrySelect :countries="countriesNew"></CountrySelect>
+  <CountrySelect :countries="countriesNew" :username="username"></CountrySelect>
   </div>
 </template>
 
