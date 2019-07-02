@@ -4,7 +4,7 @@
 
     <div class="box header">M-Apps!...</div>
     <div class="sidebar">
-      <router-link @click.native="clearProfile" :to="{ name: 'home' }">Home</router-link>
+      <router-link id="router" @click.native="clearProfile" :to="{ name: 'home' }">Home</router-link>
       <Profile :selectedCountry="selectedCountry"></Profile>
     </div>
     <div class="box content">
@@ -116,7 +116,6 @@ nav {
   justify-content: space-around;
   height: auto;
   align-items: center;
-  /* background-image: url('./assets/images/france.png'); */
 }
 
 .content {
@@ -176,6 +175,10 @@ button {
   font-size: 20px;
   border-radius: 15px;
   border-color: #3870a0;
+}
+
+#router {
+  text-decoration: none;
 }
 
 
