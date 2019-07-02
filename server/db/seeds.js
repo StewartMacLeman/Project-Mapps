@@ -5,6 +5,7 @@ db.countries.insertMany([
 
   {
     name: "France",
+    greeting: "Bien. The nation of Proust, Monet and Napoleon... There is no more romantic language in the world.",
     easy: [
       {
         question: "Which of these is the flag of France?",
@@ -108,6 +109,7 @@ db.countries.insertMany([
 
   {
     name: "Japan",
+    greeting: "Good choice, or 'yoi sentaku' as they'd say in Japan. You haven't seen the future until you've seen Tokyo!",
     easy: [
       {
         question: "Which of these is the flag of Japan?",
@@ -211,6 +213,7 @@ db.countries.insertMany([
 
   {
     name: "USA",
+    greeting: "The nation of Hemingway, Franklin D. Roosevelt and Youtube. I was educated in the States, you know!",
     easy: [
       {
         question: "Which of these is the flag of the USA?",
@@ -314,6 +317,7 @@ db.countries.insertMany([
 
   {
     name: "Russia",
+    greeting: "In Russia, the tests take you! I jest- it's a beautiful country with the greatest writers in the world.",
     easy: [
       {
         question: "Which of these is the flag of Russia?",
@@ -417,6 +421,7 @@ db.countries.insertMany([
 
   {
     name: "China",
+    greet: "Good choice! Or hǎo de xuǎnzé as they'd say in China. I learnt kung fu and good manners there but I bet I can teach you a thing or two...",
     easy: [
       {
         question: "Which of these is the flag of China?",
@@ -520,6 +525,7 @@ db.countries.insertMany([
 
   {
     name: "Brazil",
+    greeting: "There's an awful lot of coffee in Brazil! And also the greatest biodiversity of any nation on earth.",
     easy: [
       {
         question: "Which of these is the flag of Brazil?",
@@ -623,6 +629,7 @@ db.countries.insertMany([
 
   {
     name: "Australia",
+    greeting: "Down under... I got bit by a snake there... Nasty business. But if you insist.",
     easy: [
       {
         question: "Which of these is the flag of Australia?",
@@ -726,6 +733,7 @@ db.countries.insertMany([
 
   {
     name: "India",
+    greeting: "Home of Gandhi and Mother Teresa, you can't name me a more spiritual country. I love India.",
     easy: [
       {
         question: "Which of these is the flag of India?",
@@ -829,6 +837,7 @@ db.countries.insertMany([
 
   {
     name: "South Africa",
+    greeting: "Great choice! I once befriended an ostrich in South Africa. She was... she was... beautiful... Oh, where was I.",
     easy: [
       {
         question: "Which of these is the flag of South Africa?",
@@ -932,6 +941,7 @@ db.countries.insertMany([
 
   {
     name: "Scotland",
+    greeting: "Scotland, eh? I once got into a fight there. I mean, a flight there. Yes. To learn about haggis. Ahem.",
     easy: [
       {
         question: "Which of these is the flag of Scotland?",
