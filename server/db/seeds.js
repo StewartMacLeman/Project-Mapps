@@ -1065,3 +1065,12 @@ db.maps.insertMany(
   }
 
 ])
+
+db.mi.insertMany(
+
+  [{
+    name: "result",
+    score: 0,
+    games: 1
+  }
+])
