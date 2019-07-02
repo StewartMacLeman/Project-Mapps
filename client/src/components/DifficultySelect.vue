@@ -8,7 +8,7 @@
       <option  :value="this.selectedCountry.medium"  style="text-align:center;">Medium</option>
       <option  :value="this.selectedCountry.hard"  style="text-align:center;">Hard</option>
     </select>
-    <button v-on:click="handleClick" onclick="window.location.href = 'http://localhost:8080/#/quiz';" type="button" name="button">Choose this country</button>
+    <button v-if="selectedCountryDifficulty" v-on:click="handleClick" onclick="window.location.href = 'http://localhost:8080/#/quiz';" type="button" name="button">Choose this country</button>
   </div>
 
 </template>
@@ -39,7 +39,7 @@ export default {
 
 <style lang="css" scoped>
 
-.country-select {
+.difficulty-select {
   display: flex;
   flex-direction: column;
   width: 75vw;

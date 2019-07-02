@@ -4,16 +4,16 @@
   <img :src="this.correctAnswerOne" alt="image of Frenchg tricolour" height="200px" width="250px">
 </div>
   <div v-if="showTwo" class="factTwo">
-    <p>Capital: {{this.correctAnswerTwo}}</p>
+    <p>{{this.correctAnswerTwo}}</p>
   </div>
   <div v-if="showThree" class="factThree">
-    <p>Language: {{this.correctAnswerThree}}</p>
+    <p>{{this.correctAnswerThree}}</p>
   </div>
   <div v-if="showFour" class="factFour">
-    <p>Landmark: {{this.correctAnswerFour}}</p>
+    <p>{{this.correctAnswerFour}}</p>
   </div>
   <div v-if="showFive" class="factFive">
-    <p>Food: {{this.correctAnswerFive}}</p>
+    <p>{{this.correctAnswerFive}}</p>
   </div>
 </div>
 
@@ -32,7 +32,6 @@ export default {
       showThree: false,
       showFour: false,
       showFive: false,
-      correctAnswers: [],
       correctAnswerOne: "",
       correctAnswerTwo: "",
       correctAnswerThree: "",
@@ -56,12 +55,12 @@ export default {
     eventBus.$on('update-profile-five', (update) => {
       this.showFive = update
     }),
-    eventBus.$on('country-selected', (country) =>{
-    this.correctAnswerOne = country.easy[0].correct_answer
-    this.correctAnswerTwo = country.easy[1].correct_answer
-    this.correctAnswerThree = country.easy[2].correct_answer
-    this.correctAnswerFour = country.easy[3].correct_answer
-    this.correctAnswerFive = country.easy[4].correct_answer
+    eventBus.$on('difficulty-selected', (country) =>{
+    this.correctAnswerOne = country[0].correct_answer
+    this.correctAnswerTwo = country[1].correct_answer
+    this.correctAnswerThree = country[2].correct_answer
+    this.correctAnswerFour = country[3].correct_answer
+    this.correctAnswerFive = country[4].correct_answer
 
     })
   }
