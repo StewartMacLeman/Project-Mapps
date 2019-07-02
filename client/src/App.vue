@@ -142,7 +142,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 10vh;
+  height: 60px;
+  width: 200px;
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
@@ -165,13 +166,15 @@ nav {
 
 button {
   height: 60px;
-  width: 200px;
+  width: 15vw;
   color: white;
   background-color: #3870a0;
   font-size: 20px;
   border-radius: 15px;
   border-color: #3870a0;
 }
+
+
 
 
 </style>
