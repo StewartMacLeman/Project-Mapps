@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="quiz">
 
     <div v-if="firstQuestion" class="first-question">
     <p>{{selectedCountryQuestions[0].question}}</p>
@@ -15,7 +15,7 @@
     </div>
 
     <div v-if="showResult" class="quiz-result" >
-      <p>{{username}} - You scored {{correctAnswers}} out of 5</p>
+      <h1>{{username}} - You scored {{correctAnswers}} out of 5</h1>
     </div>
 
     <div v-if="showResult" class="navigation-buttons">
@@ -130,17 +130,18 @@ button {
   width: 140px;
   color: white;
   background-color: #3870a0;
-  font-size: 20px
+  font-size: 20px;
+  border-radius: 15px
 }
 .questions {
   display: flex;
-  margin-bottom: 10px;
+  margin: 10px;
   justify-content: space-between;
 }
 
 .first-question {
   display: flex;
-  margin-bottom: 10px;
+  margin: 10px;
   justify-content: space-between;
 }
 
@@ -151,8 +152,11 @@ button {
 
 .navigation-buttons {
   display: flex;
-  margin-bottom: 10px;
+  margin: 10px;
   justify-content: space-around;
+  border-radius: 15px
 }
+
+
 
 </style>

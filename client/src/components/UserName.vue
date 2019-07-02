@@ -37,4 +37,22 @@ export default {
   width: 75vw;
   align-items: center;
 }
+
+button {
+  height: 60px;
+  width: 200px;
+  color: white;
+  background-color: #3870a0;
+  font-size: 20px;
+  border-radius: 15px;
+  border-color: #3870a0;
+}
+
+
+
+input {
+  height: 40px;
+  width: 200px;
+  font-size: 20px
+}
 </style>

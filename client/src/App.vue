@@ -135,7 +135,7 @@ nav {
   justify-content: space-around;
   height: 10vh;
   margin-top: 5vh;
-  margin-bottom: 5vh
+  margin-bottom: 5vh;
 }
 
 .sidebar a {
@@ -143,6 +143,7 @@ nav {
   background-color: #3870a0;
   color: white;
   font-size: 20px;
+  border-radius: 15px
 }
 
 .box {
@@ -152,5 +153,6 @@ nav {
   padding: 10px;
   font-size: 150%;
 }
+
 
 </style>
