@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="quiz">
 
     <div v-if="firstQuestion" class="first-question">
     <p>{{selectedCountryQuestions[0].question}}</p>
@@ -135,13 +135,13 @@ button {
 }
 .questions {
   display: flex;
-  margin-bottom: 10px;
+  margin: 10px;
   justify-content: space-between;
 }
 
 .first-question {
   display: flex;
-  margin-bottom: 10px;
+  margin: 10px;
   justify-content: space-between;
 }
 
@@ -152,7 +152,7 @@ button {
 
 .navigation-buttons {
   display: flex;
-  margin-bottom: 10px;
+  margin: 10px;
   justify-content: space-around;
   border-radius: 15px
 }

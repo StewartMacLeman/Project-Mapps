@@ -40,15 +40,17 @@ export default {
 select {
   text-align-last:center;
   width: 25vw;
+  font-size: 20px;
  }
 
  button {
-   height: 90px;
-   width: 140px;
+   height: 70px;
+   width: 250px;
    color: white;
    background-color: #3870a0;
    font-size: 20px;
-   border-radius: 15px
+   border-radius: 15px;
+   border-color: #3870a0;
  }
 
 </style>
