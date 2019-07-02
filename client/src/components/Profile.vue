@@ -2,7 +2,7 @@
 <div>
   <p>{{this.selectedCountry.name}}</p>
 <div v-if="showOne" class="factOne">
-  <img :src="this.correctAnswerOne" alt="image of Frenchg tricolour" height="200px" width="250px">
+  <img :src="this.correctAnswerOne" alt="image of Frenchg tricolour" height="50px" width="75px">
 </div>
   <div v-if="showTwo" class="factTwo">
     <p>{{this.correctAnswerShorthandTwo}}: {{this.correctAnswerTwo}}</p>

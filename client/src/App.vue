@@ -5,6 +5,7 @@
     <div class="box header">M-Apps!...</div>
     <div class="sidebar">
       <router-link :to="{ name: 'home' }">Home</router-link>
+      <Profile></Profile>
     </div>
     <div class="box content">
       <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry" :maps="maps"></router-view>
@@ -24,6 +25,7 @@
 import CountriesService from './services/CountriesService.js'
 import MapsService from './services/MapsService.js'
 import {eventBus} from './main.js'
+import Profile from "@/components/Profile.vue"
 
 export default {
   name: 'app',
@@ -49,6 +51,9 @@ export default {
     eventBus.$on('country-selected', (country) =>{
       this.selectedCountry = country
     })
+  },
+  components: {
+    Profile
   }
 
 }
@@ -78,8 +83,6 @@ nav {
   "sidebar content content"
   "sidebar content content"
   "sidebar content content"
-  "character content content"
-  "character  content  content"
   "character content content"
   "character  content  content";
   background-color: #fff;
@@ -116,6 +119,7 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
+
 
 .sidebar a {
   display: flex;
