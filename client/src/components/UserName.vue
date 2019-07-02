@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="">
   <div class="user-name">
-    <label for="username">Please Enter Your Name: </label>
+    <label for="username" class="label">Hi there! I'm Oliver the Owl, but my friends call me Ollie. What's your Name? </label>
     <input v-model="username" type="text" name="username" style="text-align:center;" required>
     <button v-if="username" v-on:click="handleClick" onclick="window.location.href = 'http://localhost:8080/#/country-select';" type="button" name="button">Confirm your name</button>
   </div>
@@ -26,6 +26,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.label {
+  width: 70%;
+  margin: 40px;
+}
 
 .user-name {
   display: flex;
