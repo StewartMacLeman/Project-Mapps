@@ -1,19 +1,20 @@
 <template lang="html">
 <div>
+  <p>{{this.selectedCountry.name}}</p>
 <div v-if="showOne" class="factOne">
   <img :src="this.correctAnswerOne" alt="image of Frenchg tricolour" height="200px" width="250px">
 </div>
   <div v-if="showTwo" class="factTwo">
-    <p>{{this.correctAnswerTwo}}</p>
+    <p>{{this.correctAnswerShorthandTwo}}: {{this.correctAnswerTwo}}</p>
   </div>
   <div v-if="showThree" class="factThree">
-    <p>{{this.correctAnswerThree}}</p>
+    <p>{{this.correctAnswerShorthandThree}}: {{this.correctAnswerThree}}</p>
   </div>
   <div v-if="showFour" class="factFour">
-    <p>{{this.correctAnswerFour}}</p>
+    <p>{{this.correctAnswerShorthandFour}}: {{this.correctAnswerFour}}</p>
   </div>
   <div v-if="showFive" class="factFive">
-    <p>{{this.correctAnswerFive}}</p>
+    <p>{{this.correctAnswerShorthandFive}}: {{this.correctAnswerFive}}</p>
   </div>
 </div>
 
@@ -32,11 +33,17 @@ export default {
       showThree: false,
       showFour: false,
       showFive: false,
+      countryName: "",
       correctAnswerOne: "",
+      correctAnswerShorthandOne:"",
       correctAnswerTwo: "",
+      correctAnswerShorthandTwo:"",
       correctAnswerThree: "",
+      correctAnswerShorthandThree:"",
       correctAnswerFour: "",
+      correctAnswerShorthandFour:"",
       correctAnswerFive: "",
+      correctAnswerShorthandFive:""
     }
   },
   mounted() {
@@ -57,10 +64,16 @@ export default {
     }),
     eventBus.$on('difficulty-selected', (country) =>{
     this.correctAnswerOne = country[0].correct_answer
+    this.correctAnswerShorthandOne = country[0].question_shorthand
     this.correctAnswerTwo = country[1].correct_answer
+    this.correctAnswerShorthandTwo = country[1].question_shorthand
     this.correctAnswerThree = country[2].correct_answer
+    this.correctAnswerShorthandThree = country[2].question_shorthand
     this.correctAnswerFour = country[3].correct_answer
+    this.correctAnswerShorthandFour = country[3].question_shorthand
     this.correctAnswerFive = country[4].correct_answer
+    this.correctAnswerShorthandFive = country[4].question_shorthand
+
 
     })
   }
