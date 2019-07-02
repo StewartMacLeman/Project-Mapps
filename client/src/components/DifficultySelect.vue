@@ -1,7 +1,8 @@
 <template lang="html">
 
   <div class="difficulty-select">
-    <label for="selectDifficulty">Choose a difficulty level</label>
+    <img src="/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
+    <label for="selectDifficulty">Ok {{username}}, we're going to learn about {{this.selectedCountry.name}}. How difficult should the quiz be?</label>
     <select v-model="selectedCountryDifficulty"  style="text-align:center;" required>
       <option disabled value=""  style="text-align:center;">Select Difficulty</option>
       <option  :value="this.selectedCountry.easy"  style="text-align:center;">Easy</option>
@@ -33,7 +34,8 @@ export default {
     eventBus.$on('country-selected', (country) =>{
       this.selectedCountry = country
     })
-  }
+  },
+  props: ['username']
 }
 </script>
 
