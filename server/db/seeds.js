@@ -18,7 +18,7 @@ db.countries.insertMany([
         correct_answer: "Paris"
       },
       {
-        question: "What is the main lanuguge spoken in France?",
+        question: "What is the main language spoken in France?",
         answers: [ "English", "French", "Italian", "Spanish" ],
         correct_answer: "French"
       },
@@ -82,7 +82,7 @@ db.countries.insertMany([
         correct_answer: "Christianity"
       },
       {
-        question: "What is the population density per square kilometer of France?",
+        question: "What is the population density per square kilometre of France?",
         answers: [ "200", "138", "104", "89" ],
         correct_answer: "104"
       }
@@ -107,7 +107,7 @@ db.countries.insertMany([
         correct_answer: "Tokyo"
       },
       {
-        question: "What is the main lanuguge spoken in Japan?",
+        question: "What is the main language spoken in Japan?",
         answers: [ "English", "French", "Japanese", "Spanish" ],
         correct_answer: "Japanese"
       },
@@ -117,7 +117,7 @@ db.countries.insertMany([
         correct_answer: "Mount Fuji"
       },
       {
-        question: "Which of these is a famous Janpanese food?",
+        question: "Which of these is a famous Japanese food?",
         answers: [ "Pizza", "Sushi", "Baguette", "Scones" ],
         correct_answer: "Sushi"
       }
@@ -171,7 +171,7 @@ db.countries.insertMany([
         correct_answer: "Shinto"
       },
       {
-        question: "What is the population density per square kilometer of Japan?",
+        question: "What is the population density per square kilometre of Japan?",
         answers: [ "245", "138", "110", "334" ],
         correct_answer: "334"
       }
@@ -195,7 +195,7 @@ db.countries.insertMany([
         correct_answer: "Washington DC"
       },
       {
-        question: "What is the main lanuguge spoken in the USA?",
+        question: "What is the main language spoken in the USA?",
         answers: [ "English", "French", "German", "Spanish" ],
         correct_answer: "English"
       },
@@ -259,7 +259,7 @@ db.countries.insertMany([
         correct_answer: "Christianity"
       },
       {
-        question: "What is the population density per square kilometer of the USA?",
+        question: "What is the population density per square kilometre of the USA?",
         answers: [ "245", "85", "110", "234" ],
         correct_answer: "85"
       }
@@ -348,7 +348,7 @@ db.countries.insertMany([
         correct_answer: "Christianity"
       },
       {
-        question: "What is the population density per square kilometer of Russia?",
+        question: "What is the population density per square kilometre of Russia?",
         answers: [ "9", "85", "43", "62" ],
         correct_answer: "9"
       }
@@ -373,7 +373,7 @@ db.countries.insertMany([
         correct_answer: "Beijing"
       },
       {
-        question: "What is the main lanuguge spoken in China?",
+        question: "What is the main language spoken in China?",
         answers: [ "English", "French", "Chinese", "Russian" ],
         correct_answer: "Chinese"
       },
@@ -437,7 +437,7 @@ db.countries.insertMany([
         correct_answer: "Buddhism"
       },
       {
-        question: "What is the population density per square kilometer of China?",
+        question: "What is the population density per square kilometre of China?",
         answers: [ "145", "285", "83", "71" ],
         correct_answer: "145"
       }
@@ -462,7 +462,7 @@ db.countries.insertMany([
         correct_answer: "Brasilia"
       },
       {
-        question: "What is the main lanuguge spoken in Brazil?",
+        question: "What is the main language spoken in Brazil?",
         answers: [ "English", "French", "Chinese", "Portuguese" ],
         correct_answer: "Portuguese"
       },
@@ -526,7 +526,7 @@ db.countries.insertMany([
         correct_answer: "Roman Catholicism"
       },
       {
-        question: "What is the population density per square kilometer of Brazil?",
+        question: "What is the population density per square kilometre of Brazil?",
         answers: [ "65", "25", "183", "91" ],
         correct_answer: "25"
       }
@@ -551,7 +551,7 @@ db.countries.insertMany([
         correct_answer: "Canberra"
       },
       {
-        question: "What is the main lanuguge spoken in Australia?",
+        question: "What is the main language spoken in Australia?",
         answers: [ "English", "French", "Chinese", "Portuguese" ],
         correct_answer: "English"
       },
@@ -615,7 +615,7 @@ db.countries.insertMany([
         correct_answer: "Christianity"
       },
       {
-        question: "What is the population density per square kilometer of Australia?",
+        question: "What is the population density per square kilometre of Australia?",
         answers: [ "16", "3", "37", "41" ],
         correct_answer: "3"
       }
@@ -640,7 +640,7 @@ db.countries.insertMany([
         correct_answer: "New Delhi"
       },
       {
-        question: "What is the main lanuguge spoken in India?",
+        question: "What is the main language spoken in India?",
         answers: [ "English", "Hindi", "Chinese", "Portuguese" ],
         correct_answer: "Hindi"
       },
@@ -658,7 +658,7 @@ db.countries.insertMany([
     medium: [
       {
         question: "What is the national sport of India?",
-        answers: [ "Hockey", "Kaddabi", "None!", "Cricket" ],
+        answers: [ "Hockey", "Kabaddi", "None!", "Cricket" ],
         correct_answer: "None!"
       },
       {
@@ -704,7 +704,7 @@ db.countries.insertMany([
         correct_answer: "Hinduism"
       },
       {
-        question: "What is the population density per square kilometer of India?",
+        question: "What is the population density per square kilometre of India?",
         answers: [ "415", "302", "289", "350" ],
         correct_answer: "415"
       }
@@ -729,7 +729,7 @@ db.countries.insertMany([
         correct_answer: "Pretoria"
       },
       {
-        question: "What is the main lanuguge spoken in South Africa?",
+        question: "What is the main language spoken in South Africa?",
         answers: [ "English", "Zulu", "French", "Portuguese" ],
         correct_answer: "Zulu"
       },
@@ -793,7 +793,7 @@ db.countries.insertMany([
         correct_answer: "Christianity"
       },
       {
-        question: "What is the population density per square kilometer of South Africa?",
+        question: "What is the population density per square kilometre of South Africa?",
         answers: [ "28", "42", "89", "97" ],
         correct_answer: "42"
       }
@@ -818,7 +818,7 @@ db.countries.insertMany([
         correct_answer: "Edinburgh"
       },
       {
-        question: "What is the main lanuguge spoken in Scotland?",
+        question: "What is the main language spoken in Scotland?",
         answers: [ "English", "Spanish", "French", "Portuguese" ],
         correct_answer: "English"
       },
@@ -851,7 +851,7 @@ db.countries.insertMany([
       },
       {
         question: "Which is the most populated city of Scotland?",
-        answers: [ "Aderdeen", "Edinburgh", "Dundee", "Glasgow" ],
+        answers: [ "Aberdeen", "Edinburgh", "Dundee", "Glasgow" ],
         correct_answer: "Glasgow"
       },
       {
@@ -868,7 +868,7 @@ db.countries.insertMany([
       },
       {
         question: "Which is the second most populated city of Scotland?",
-        answers: [ "Aderdeen", "Edinburgh", "Dundee", "Glasgow" ],
+        answers: [ "Aberdeen", "Edinburgh", "Dundee", "Glasgow" ],
         correct_answer: "Edinburgh"
       },
       {
@@ -882,7 +882,7 @@ db.countries.insertMany([
         correct_answer: "Christianity"
       },
       {
-        question: "What is the population density per square kilometer of Scotland?",
+        question: "What is the population density per square kilometre of Scotland?",
         answers: [ "33", "68", "49", "91" ],
         correct_answer: "68"
       }
@@ -890,6 +890,30 @@ db.countries.insertMany([
       lat_long: [56.866107, -4.149746],
       zooms: [2.3, 3.2, 4.2, 5.2, 6.2],
       flag: ""
+  }
+
+])
+db.maps.insertMany([
+
+  {
+    name: "National Geography",
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?apikey="
+  },
+  {
+    name: "Earth At Night",
+    url: "https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.png?apikey="
+  },
+  {
+    name: "Wild West Map",
+    url: "https://{s}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey="
+  },
+  {
+    name: "Ocean Base",
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}.png?apikey="
+  },
+  {
+    name: "World Street Map",
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png?apikey="
   }
 
 ])
