@@ -7,7 +7,7 @@
       <router-link :to="{ name: 'home' }">Home</router-link>
     </div>
     <div class="box content">
-      <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry"></router-view>
+      <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry" :maps="maps"></router-view>
     </div>
   </div>
 
