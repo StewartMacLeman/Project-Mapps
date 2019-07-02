@@ -40,7 +40,7 @@ export default {
       maps: [],
       username: "",
       selectedCountry: "",
-      showOllie: ""
+      showOllie: false
     }
   },
   mounted() {
