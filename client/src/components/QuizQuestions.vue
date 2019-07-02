@@ -25,8 +25,8 @@
     </div>
 
     <div v-if="showResult" class="navigation-buttons">
-    <button onclick="window.location.href = 'http://localhost:8080/#/';" type="button" name="home-button">Home</button>
-    <button onclick="window.location.href = 'http://localhost:8080/#/country-select';" type="button" name="home-button">Choose another country</button>
+    <button v-on:click="clearProfile()" onclick="window.location.href = 'http://localhost:8080/#/';" type="button" name="home-button">Home</button>
+    <button v-on:click="clearProfile()" onclick="window.location.href = 'http://localhost:8080/#/country-select';" type="button" name="home-button">Choose another country</button>
     </div>
 
   </div>
@@ -109,6 +109,10 @@ export default {
       this.updateShowResult()
       this.updateQuestionCounter()
       this.updateProfile()
+    },
+
+    clearProfile(){
+      eventBus.$emit('clear-profile', false)
     }
 
 

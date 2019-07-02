@@ -1,5 +1,5 @@
 <template lang="html">
-<div>
+<div v-if="showOne">
   <p>{{this.selectedCountry.name}}</p>
 <div v-if="showOne" class="factOne">
   <img :src="this.correctAnswerOne" alt="image of Frenchg tricolour" height="50px" width="75px">
@@ -73,8 +73,14 @@ export default {
     this.correctAnswerShorthandFour = country[3].question_shorthand
     this.correctAnswerFive = country[4].correct_answer
     this.correctAnswerShorthandFive = country[4].question_shorthand
+    })
 
-
+    eventBus.$on('clear-profile', (clear) =>{
+      this.showOne = clear
+      this.showTwo = clear
+      this.showThree = clear
+      this.showFour = clear
+      this.showFive = clear
     })
   }
 }
