@@ -893,3 +893,27 @@ db.countries.insertMany([
   }
 
 ])
+db.maps.insertMany([
+
+  {
+    name: "National Geography",
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?apikey="
+  },
+  {
+    name: "Earth At Night",
+    url: "https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.png?apikey="
+  },
+  {
+    name: "Wild West Map",
+    url: "https://{s}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey="
+  },
+  {
+    name: "Ocean Base",
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}.png?apikey="
+  },
+  {
+    name: "World Street Map",
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png?apikey="
+  }
+
+])
