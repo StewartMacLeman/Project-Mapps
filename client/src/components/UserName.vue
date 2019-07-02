@@ -33,4 +33,13 @@ export default {
   width: 75vw;
   align-items: center;
 }
+
+button {
+  height: 90px;
+  width: 140px;
+  color: white;
+  background-color: #3870a0;
+  font-size: 20px;
+  border-radius: 15px
+}
 </style>

@@ -93,7 +93,7 @@ export default {
 
 .profile {
   color: white;
-  text-decoration-style:
+  margin: 5px
 }
 
 </style>
