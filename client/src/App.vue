@@ -18,6 +18,7 @@
 <script>
 
 import CountriesService from './services/CountriesService.js'
+import MapsService from './services/MapsService.js'
 import {eventBus} from './main.js'
 
 export default {
@@ -25,11 +26,15 @@ export default {
   data(){
     return{
       countries: [],
+      maps: [],
       username: "",
       selectedCountry: ""
     }
   },
   mounted() {
+    MapsService.getMaps()
+    .then(maps => this.maps = maps)
+
     CountriesService.getCountries()
     .then(countries => this.countries = countries)
 
