@@ -6,9 +6,6 @@
     <div class="quiz">
       <QuizQuestions :selectedCountry="selectedCountry" :username="username"></QuizQuestions>
     </div>
-    <div class="sidebar">
-      <Profile :selectedCountry="selectedCountry" :username="username"></Profile>
-    </div>
   </div>
 </template>
 
@@ -16,14 +13,12 @@
 
 import QuizQuestions from '@/components/QuizQuestions.vue'
 import WorldMap from '@/components/WorldMap.vue'
-import Profile from "@/components/Profile.vue"
 
 export default {
   props: ['selectedCountry', 'username', 'maps'],
   components: {
     QuizQuestions,
     WorldMap,
-    Profile
   }
 }
 </script>
