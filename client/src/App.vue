@@ -4,7 +4,7 @@
 
     <div class="box header">M-Apps!...</div>
     <div class="sidebar">
-      <router-link :to="{ name: 'home' }">Home</router-link>
+      <router-link @click.native="clearProfile" :to="{ name: 'home' }">Home</router-link>
       <Profile :selectedCountry="selectedCountry"></Profile>
     </div>
     <div class="box content">
@@ -12,7 +12,7 @@
     </div>
 
   <div class="box character">
-    <p>Image here</p>
+    <img src="../public/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
   </div>
     </div>
 
@@ -54,6 +54,12 @@ export default {
   },
   components: {
     Profile
+  },
+
+  methods: {
+    clearProfile(){
+      eventBus.$emit('clear-profile', false)
+    }
   }
 
 }
@@ -108,9 +114,11 @@ nav {
 }
 .character {
   grid-area: character;
-  height: 20vh;
+  height: auto;
   display: flex;
+  flex-direction: column;
   align-content: space-around;
+  justify-content: center;
 }
 
 .header {

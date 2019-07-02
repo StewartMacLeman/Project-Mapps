@@ -1,23 +1,23 @@
 <template lang="html">
-<div v-if="showOne">
-  <p>{{this.selectedCountry.name}}</p>
+<div v-if="showOne" class="profile">
+  <h2>All about...</h2>
+  <h4>{{this.selectedCountry.name}}</h4>
 <div v-if="showOne" class="factOne">
   <img :src="this.correctAnswerOne" alt="image of Frenchg tricolour" height="50px" width="75px">
 </div>
   <div v-if="showTwo" class="factTwo">
-    <p>{{this.correctAnswerShorthandTwo}}: {{this.correctAnswerTwo}}</p>
+    <h4>{{this.correctAnswerShorthandTwo}}: {{this.correctAnswerTwo}}</h4>
   </div>
   <div v-if="showThree" class="factThree">
-    <p>{{this.correctAnswerShorthandThree}}: {{this.correctAnswerThree}}</p>
+    <h4>{{this.correctAnswerShorthandThree}}: {{this.correctAnswerThree}}</h4>
   </div>
   <div v-if="showFour" class="factFour">
-    <p>{{this.correctAnswerShorthandFour}}: {{this.correctAnswerFour}}</p>
+    <h4>{{this.correctAnswerShorthandFour}}: {{this.correctAnswerFour}}</h4>
   </div>
   <div v-if="showFive" class="factFive">
-    <p>{{this.correctAnswerShorthandFive}}: {{this.correctAnswerFive}}</p>
+    <h4>{{this.correctAnswerShorthandFive}}: {{this.correctAnswerFive}}</h4>
   </div>
 </div>
-
 
 
 </template>
@@ -87,5 +87,14 @@ export default {
 
 </script>
 
+
+
+
 <style lang="css" scoped>
+
+.profile {
+  color: white;
+  text-decoration-style:
+}
+
 </style>

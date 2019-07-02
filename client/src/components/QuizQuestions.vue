@@ -1,16 +1,10 @@
 <template lang="html">
   <div class="">
 
-    <!-- <div class="test-image">
-      <img :src="selectedCountryQuestions[0].answers[0]" height="190px" width="250px"
-      :alt="selectedCountry.name">
-      <img src="../assets/images/france.png" height="180px" width="250px">
-    </div> -->
-
     <div v-if="firstQuestion" class="first-question">
     <p>{{selectedCountryQuestions[0].question}}</p>
     <br>
-    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="180px" width="250px"></button>
+    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="90px" width="140px"></button>
     </div>
 
 
@@ -130,4 +124,21 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+button {
+  height: 90px;
+  width: 140px;
+}
+.questions {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.first-question {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between; 
+}
+
 </style>
