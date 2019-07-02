@@ -6,9 +6,9 @@
     <div class="quiz">
       <QuizQuestions :selectedCountry="selectedCountry" :username="username"></QuizQuestions>
     </div>
-    <!-- <div class="sidebar">
+    <div class="sidebar">
       <Profile :selectedCountry="selectedCountry" :username="username"></Profile>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -16,14 +16,14 @@
 
 import QuizQuestions from '@/components/QuizQuestions.vue'
 import WorldMap from '@/components/WorldMap.vue'
-// import Profile from "@/components/Profile.vue"
+import Profile from "@/components/Profile.vue"
 
 export default {
   props: ['selectedCountry', 'username', 'maps'],
   components: {
     QuizQuestions,
     WorldMap,
-    // Profile
+    Profile
   }
 }
 </script>
@@ -48,12 +48,12 @@ export default {
 
 .quiz {
   grid-area: quiz;
-  width: 72vw
+  width: 72vw;
 }
 
 .profile {
   grid-area: profile;
-  width: 30vw
+  width: 30vw;
 }
 
 </style>
