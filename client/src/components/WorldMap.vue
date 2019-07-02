@@ -1,7 +1,12 @@
 <template lang="html">
-  <l-map style="height: 500px; width: 100%" :options="mapOptions" :center="selectedCountry.lat_long" ref="worldMap" :minZoom="1.4">
-    <l-tile-layer :url="url"></l-tile-layer>
-  </l-map>
+  <div>
+    <l-map style="height: 500px; width: 100%" :options="mapOptions" :center="selectedCountry.lat_long" ref="worldMap" :minZoom="1.4">
+      <l-tile-layer :url="url"></l-tile-layer>
+    </l-map>
+    <select v-model="url">
+      <option v-for="map in maps" :value="map.url">{{map.name}}</option>
+    </select>
+  </div>
 </template>
 
 <script>
@@ -17,7 +22,7 @@ export default {
   props: ['maps'],
   data() {
     return {
-      url: `https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?access_token=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ`,
+      url: "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ",
       selectedCountry: null,
       worldMap: null,
       zoom: 0,
