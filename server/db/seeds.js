@@ -895,17 +895,14 @@ db.countries.insertMany([
 ])
 
 db.maps.insertMany(
+
   [{
     name: "National Geography",
     url: "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ"
   },
   {
-    name: "Earth At Night",
-    url: "https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{23:00}/{GoogleMapsCompatible_Level}{9}/{z}/{y}/{x}.jpg?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ"
-  },
-  {
-    name: "Wild West Map",
-    url: "https://{s}.tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ"
+    name: "Satellite View",
+    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ"
   },
   {
     name: "Ocean Base",
