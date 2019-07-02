@@ -1,9 +1,9 @@
 <template lang="html">
-  <div>
+  <div id="map">
     <l-map style="height: 650px; width: 100%" :options="mapOptions" :center="center" ref="worldMap" :minZoom="1.9">
       <l-tile-layer :url="url"></l-tile-layer>
     </l-map>
-    <select v-model="url">
+    Map Type: <select v-model="url">
       <option v-for="map in maps" :value="map.url">{{map.name.toUpperCase()}}</option>
     </select>
   </div>
@@ -47,4 +47,14 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+#map {
+  color: #3870a0;
+  font-style: oblique;
+}
+
+option {
+  color: #439fef;
+}
+
 </style>

@@ -178,14 +178,7 @@ button {
   border-color: #3870a0;
 }
 
-button:hover {
-  background-color: white;
-  color: #3870a0
-}
 
-.sidebar a:hover{
-  background-color: white;
-  color: #3870a0
-}
+
 
 </style>

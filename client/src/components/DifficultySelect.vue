@@ -67,6 +67,7 @@ select {
   width: 25vw;
   font-size: 20px;
   margin: 5px;
+  color: #3870a0;
  }
 
  button {

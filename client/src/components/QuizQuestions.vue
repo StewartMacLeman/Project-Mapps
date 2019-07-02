@@ -154,6 +154,7 @@ h1 {
 
 p {
   color: #3870a0;
+  font-weight: bold;
 }
 
 .questions {
