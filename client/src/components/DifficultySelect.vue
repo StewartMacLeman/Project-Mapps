@@ -2,6 +2,7 @@
 
   <div class="difficulty-select">
     <img src="/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
+      <p id="greeting">{{this.selectedCountry.greeting}}</p>
     <label for="selectDifficulty" class="label">Okay {{username}} we're going to learn about {{this.selectedCountry.name}}. But I warn you, my easy tests are hard and my hard tests are... diabolical. How difficult should the quiz be?</label>
     <select v-model="selectedCountryDifficulty"  style="text-align:center;" required>
       <option disabled value=""  style="text-align:center;">Select Difficulty</option>
@@ -41,6 +42,10 @@ export default {
 
 <style lang="css" scoped>
 
+#greeting {
+  width: 60vw;
+}
+
 .difficulty-select {
   display: flex;
   flex-direction: column;
@@ -50,14 +55,18 @@ export default {
 
 .label {
   width: 60vw;
-  margin: 40px;
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
 }
 
 select {
   text-align-last:center;
   width: 25vw;
   font-size: 20px;
-  margin: 0 0 40px;
+  margin: 5px;
  }
 
  button {
@@ -68,6 +77,7 @@ select {
    font-size: 20px;
    border-radius: 15px;
    border-color: #3870a0;
+   margin: 5px;
  }
 
  button:hover {

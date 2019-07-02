@@ -103,7 +103,7 @@ db.countries.insertMany([
       }
     ],
     lat_long: [47.064034, 2.497441],
-    zooms: [2.2, 3.1, 3.9, 4.8, 5.7],
+    zooms: [2.7, 3.6, 4.4, 5.2, 6.1],
     flag: ""
   },
 
@@ -206,8 +206,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-    lat_long: [39.067580, 138.046949],
-    zooms: [2.2, 3.1, 3.9, 4.4, 5.1],
+    lat_long: [38.667580, 137.846949],
+    zooms: [2.6, 3.3, 4.0, 4.7, 5.48],
     flag: ""
   },
 
@@ -310,8 +310,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-    lat_long: [40.849452, -97.834994],
-    zooms: [1.9, 2.4, 2.9, 3.4, 3.9],
+    lat_long: [40.849452, -97.234994],
+    zooms: [2.4, 3.0, 3.5, 4.0, 4.57],
     flag: ""
   },
 
@@ -415,7 +415,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [64.093769, 106.478228],
-      zooms: [1.6, 1.8, 2.0, 2.2, 2.5],
+      zooms: [2.15, 2.4, 2.65, 2.9, 3.15],
       flag: ""
   },
 
@@ -518,8 +518,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [36.103825, 102.501833],
-      zooms: [1.9, 2.4, 2.9, 3.4, 3.9],
+      lat_long: [37.103825, 104.501833],
+      zooms: [2.3, 2.8, 3.3, 3.8, 4.3],
       flag: ""
   },
 
@@ -622,8 +622,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [-13.181802, -52.468510],
-      zooms: [1.9, 2.4, 2.9, 3.4, 4.0],
+      lat_long: [-14.181802, -52.468510],
+      zooms: [2.3, 2.8, 3.3, 3.8, 4.3],
       flag: ""
   },
 
@@ -726,8 +726,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [-22.863754, 133.081807],
-      zooms: [1.9, 2.4, 2.9, 3.5, 4.1],
+      lat_long: [-27.863754, 133.081807],
+      zooms: [2.4, 2.9, 3.4, 3.9, 4.5],
       flag: ""
   },
 
@@ -831,7 +831,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [20.012176, 78.003143],
-      zooms: [2.0, 2.6, 3.2, 3.8, 4.5],
+      zooms: [2.4, 3.0, 3.5, 4.1, 4.7],
       flag: ""
   },
 
@@ -935,7 +935,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [-29.131173, 23.816596],
-      zooms: [2.1, 2.9, 3.7, 4.5, 5.3],
+      zooms: [2.6, 3.4, 4.1, 4.9, 5.7],
       flag: ""
   },
 
@@ -1038,8 +1038,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [56.866107, -4.149746],
-      zooms: [2.3, 3.2, 4.2, 5.2, 6.2],
+      lat_long: [57.866107, -4.149746],
+      zooms: [2.3, 3.2, 4.2, 5.2, 6.18],
       flag: ""
   }
 
