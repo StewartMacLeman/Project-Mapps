@@ -49,7 +49,10 @@ button {
   border-color: #3870a0;
 }
 
-
+button:hover {
+  background-color: white;
+  color: #3870a0
+}
 
 input {
   height: 40px;
