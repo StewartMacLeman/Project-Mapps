@@ -1,7 +1,6 @@
 <template lang="html">
 <div v-if="showOne" class="profile">
-  <h2>All about...</h2>
-  <h4>{{this.selectedCountry.name}}</h4>
+  <h2>All about... {{this.selectedCountry.name}}</h2>
 <div v-if="showOne" class="factOne">
   <img :src="this.correctAnswerOne" alt="image of Frenchg tricolour" height="50px" width="75px">
 </div>

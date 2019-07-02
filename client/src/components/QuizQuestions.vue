@@ -4,7 +4,7 @@
     <div v-if="firstQuestion" class="first-question">
     <p>{{selectedCountryQuestions[0].question}}</p>
     <br>
-    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="90px" width="140px"></button>
+    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="95px" width="135px"></button>
     </div>
 
 
@@ -128,6 +128,9 @@ export default {
 button {
   height: 90px;
   width: 140px;
+  color: white;
+  background-color: #3870a0;
+  font-size: 20px
 }
 .questions {
   display: flex;
@@ -138,7 +141,18 @@ button {
 .first-question {
   display: flex;
   margin-bottom: 10px;
-  justify-content: space-between; 
+  justify-content: space-between;
+}
+
+.first-question button {
+  background-color: white;
+
+}
+
+.navigation-buttons {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-around;
 }
 
 </style>
