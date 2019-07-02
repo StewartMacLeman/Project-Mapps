@@ -44,7 +44,6 @@ export default {
 
 .map {
   grid-area: map;
-  width: 70vw
 }
 
 .quiz {
