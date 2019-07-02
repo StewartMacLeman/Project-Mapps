@@ -6,7 +6,6 @@
       <option disabled>Select Country</option>
       <option v-for="(country, index) in countries" :index="index" :value="country"  style="text-align:center;">{{country.name}}</option>
     </select>
-
     <div v-if="selectedCountry">
       <p class="greeting">{{this.selectedCountry.greeting}}</p>
       <button v-on:click="handleClick" onclick="window.location.href = 'http://localhost:8080/#/difficulty';" type="button" name="button">Choose this country</button>
