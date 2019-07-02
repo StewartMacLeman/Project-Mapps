@@ -53,8 +53,7 @@ export default {
 }
 
 .label {
-  width: 50vw;
-  margin: 40px;
+  width: 75vw;
 }
 
 select {

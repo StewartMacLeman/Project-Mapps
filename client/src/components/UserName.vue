@@ -47,6 +47,7 @@ button {
   font-size: 20px;
   border-radius: 15px;
   border-color: #3870a0;
+  margin: 20px;
 }
 
 
@@ -54,6 +55,7 @@ button {
 input {
   height: 40px;
   width: 200px;
-  font-size: 20px
+  font-size: 20px;
+  margin: 20px;
 }
 </style>
