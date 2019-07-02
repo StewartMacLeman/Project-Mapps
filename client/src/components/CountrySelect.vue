@@ -19,7 +19,7 @@ export default {
       selectedCountry: null
     }
   },
-  props: ['countries'],
+  props: ['countries', 'username'],
   methods: {
     handleClick(){
       eventBus.$emit('country-selected', this.selectedCountry)
