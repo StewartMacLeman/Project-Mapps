@@ -72,6 +72,7 @@ export default {
   methods: {
     clearProfile(){
       eventBus.$emit('clear-profile', false)
+      this.showOllie = false
     }
   }
 
