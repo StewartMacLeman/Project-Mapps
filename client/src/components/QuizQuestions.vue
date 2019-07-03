@@ -195,7 +195,7 @@ p {
 .navigation-buttons {
   display: flex;
   margin: 10px;
-  justify-content: space-around;
+  justify-content: center;
   border-radius: 15px
 }
 
