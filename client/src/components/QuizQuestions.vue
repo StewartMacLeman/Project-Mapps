@@ -9,7 +9,7 @@
 
 
     <div v-if="showQuiz" class="questions">
-    <p>"{{selectedCountryQuestions[0].question}}"gl</p>
+    <p>"{{selectedCountryQuestions[0].question}}"</p>
     <br>
     <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers">{{answer}}</button>
     </div>
