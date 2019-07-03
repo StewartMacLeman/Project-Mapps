@@ -2,8 +2,8 @@
 
   <div class="difficulty-select">
     <img src="/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
-      <p id="greeting">{{this.selectedCountry.greeting}}</p>
-    <label for="selectDifficulty" class="label">Okay {{username}} we're going to learn about {{this.selectedCountry.name}}. But I warn you, my easy tests are hard and my hard tests are... diabolical. How difficult should the quiz be?</label>
+      <h3 id="greeting">"{{this.selectedCountry.greeting}}</h3>
+    <label for="selectDifficulty" class="label"><h3>Okay {{username}} we're going to learn about {{this.selectedCountry.name}}. But I warn you, my easy tests are hard and my hard tests are... diabolical. How difficult should the quiz be?</h3></label>
     <select v-model="selectedCountryDifficulty"  style="text-align:center;" required>
       <option disabled value=""  style="text-align:center;">Select Difficulty</option>
       <option  :value="this.selectedCountry.easy"  style="text-align:center;">EASY</option>
@@ -55,11 +55,6 @@ export default {
 
 .label {
   width: 60vw;
-  margin: 5px;
-}
-
-p {
-  margin: 5px;
 }
 
 select {

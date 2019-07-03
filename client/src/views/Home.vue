@@ -86,7 +86,7 @@ export default {
   justify-content: space-around;
   flex-direction: column;
   list-style: none;
-  height: 55vh;
+  height: auto;
 }
 .flag1 {
   grid-area: flag1;
