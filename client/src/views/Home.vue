@@ -51,7 +51,7 @@
     </div>
 
     <div class="ollie">
-      <img src="/assets/images/owl.png" alt="Ollie the Owl" height="200px" width="200px">
+      <img src="/assets/images/owl.png" alt="Ollie the Owl" height="200px" width="10vw">
 
     </div>
 
@@ -64,6 +64,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+img {
+  width: 8vw;
+}
 
 .home-wrap {
   display: grid;
@@ -115,6 +119,10 @@ export default {
 
 .ollie {
   grid-area: ollie;
+}
+
+.ollie img {
+  width: 16vw;
 }
 
 .home-wrap {

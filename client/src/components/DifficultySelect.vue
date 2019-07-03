@@ -4,11 +4,11 @@
     <img src="/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
       <h4 id="greeting">"{{this.selectedCountry.greeting}}</h4>
     <h4>"Okay {{username}} we're going to learn about {{this.selectedCountry.name}}. But I warn you, my easy tests are hard and my hard tests are... diabolical. How difficult should the quiz be?"</h4>
-    <select v-model="selectedCountryDifficulty"  style="text-align:center;" required>
-      <option disabled value=""  style="text-align:center;">Select Difficulty</option>
-      <option  :value="this.selectedCountry.easy"  style="text-align:center;">EASY</option>
-      <option  :value="this.selectedCountry.medium"  style="text-align:center;">MEDIUM</option>
-      <option  :value="this.selectedCountry.hard"  style="text-align:center;">HARD</option>
+    <select v-model="selectedCountryDifficulty" required>
+      <option disabled value="">Select Difficulty</option>
+      <option  :value="this.selectedCountry.easy">EASY</option>
+      <option  :value="this.selectedCountry.medium">MEDIUM</option>
+      <option  :value="this.selectedCountry.hard">HARD</option>
     </select>
     <button v-if="selectedCountryDifficulty" v-on:click="handleClick" onclick="window.location.href = 'http://localhost:8080/#/quiz';" type="button" name="button">Start quiz!</button>
   </div>

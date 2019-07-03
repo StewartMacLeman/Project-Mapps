@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="midata-view">
     <img src="/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
-    <button v-on:click="showMI" type="button" name="button">Show me how how everyone is doing Ollie...</button>
+    <button v-if="!showData"  v-on:click="showMI" type="button" name="button">Show me how how everyone is doing Ollie...</button>
     <div v-if="showData" class="show-data">
       <h1>Total games played: {{this.mi[0].games}}</h1>
       <h1>Average score: {{this.avg_score}}</h1>
