@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="map">
-    <l-map style="height: 650px; width: 100%" :options="mapOptions" :center="center" ref="worldMap" :minZoom="1.9">
+    <l-map style="height: 70vh; width: 100%" :options="mapOptions" :center="center" ref="worldMap" :minZoom="1.6">
       <l-tile-layer :url="url"></l-tile-layer>
     </l-map>
     Map Type: <select v-model="url">
@@ -25,7 +25,7 @@ export default {
       url: "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ",
       selectedCountry: null,
       worldMap: null,
-      center: [45, 0],
+      center: [22.012176, 78.003143],
       zoom: 0,
       mapOptions: {
        zoomSnap: 0.001
