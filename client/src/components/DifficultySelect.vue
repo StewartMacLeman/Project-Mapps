@@ -42,14 +42,10 @@ export default {
 
 <style lang="css" scoped>
 
-#greeting {
-  width: 60vw;
-}
-
 .difficulty-select {
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: auto;
   align-items: center;
 }
 

@@ -34,8 +34,9 @@ export default {
 .user-name {
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: auto;
   align-items: center;
+  justify-content: space-around;
 }
 
 button {
