@@ -34,6 +34,7 @@
 
 <script>
 import {eventBus} from '../main.js'
+import MIServices from '../services/MIServices.js'
 export default {
   props: ['selectedCountry', 'username'],
   data(){
@@ -100,7 +101,7 @@ export default {
     },
 
 
-    handleClick(answer){
+    handleClick(answer, e){
       this.updateFirstQuestion()
       this.updateCorrectAnswers(answer)
       eventBus.$emit('zoom-array', this.zoomArray[0])
@@ -109,15 +110,26 @@ export default {
       this.updateShowResult()
       this.updateQuestionCounter()
       this.updateProfile()
+      this.sendMi()
     },
 
     clearProfile(){
       eventBus.$emit('clear-profile', false)
       eventBus.$emit('clear-ollie', false)
+    },
+
+    sendMi(){
+      if (this.questionCounter === 5){
+      const data = {
+        score: this.correctAnswers,
+        games: 1,
+      }
+      MIServices.putMi(data)
+      }
     }
 
-
   },
+
   mounted() {
     eventBus.$on('country-selected', (country) =>{
       this.zoomArray = country.zooms
