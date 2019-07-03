@@ -5,6 +5,7 @@ db.countries.insertMany([
 
   {
     name: "France",
+    greeting: "Bien. The nation of Proust, Monet and Napoleon... There is no more romantic language in the world.",
     easy: [
       {
         question: "Which of these is the flag of France?",
@@ -102,12 +103,13 @@ db.countries.insertMany([
       }
     ],
     lat_long: [47.064034, 2.497441],
-    zooms: [2.2, 3.1, 3.9, 4.8, 5.7],
+    zooms: [2.7, 3.6, 4.4, 5.2, 6.1],
     flag: ""
   },
 
   {
     name: "Japan",
+    greeting: "Good choice, or 'yoi sentaku' as they'd say in Japan. You haven't seen the future until you've seen Tokyo!",
     easy: [
       {
         question: "Which of these is the flag of Japan?",
@@ -204,13 +206,14 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-    lat_long: [39.067580, 138.046949],
-    zooms: [2.2, 3.1, 3.9, 4.4, 5.1],
+    lat_long: [38.667580, 137.846949],
+    zooms: [2.6, 3.3, 4.0, 4.7, 5.48],
     flag: ""
   },
 
   {
     name: "USA",
+    greeting: "The nation of Hemingway, Franklin D. Roosevelt and Youtube. I was educated in the States, you know!",
     easy: [
       {
         question: "Which of these is the flag of the USA?",
@@ -307,13 +310,14 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-    lat_long: [40.849452, -97.834994],
-    zooms: [1.9, 2.4, 2.9, 3.4, 3.9],
+    lat_long: [40.849452, -97.234994],
+    zooms: [2.4, 3.0, 3.5, 4.0, 4.57],
     flag: ""
   },
 
   {
     name: "Russia",
+    greeting: "In Russia, the tests take you! I jest- it's a beautiful country with the greatest writers in the world.",
     easy: [
       {
         question: "Which of these is the flag of Russia?",
@@ -411,12 +415,13 @@ db.countries.insertMany([
       }
     ],
       lat_long: [64.093769, 106.478228],
-      zooms: [1.6, 1.8, 2.0, 2.2, 2.5],
+      zooms: [2.15, 2.4, 2.65, 2.9, 3.15],
       flag: ""
   },
 
   {
     name: "China",
+    greet: "Good choice! Or hǎo de xuǎnzé as they'd say in China. I learnt kung fu and good manners there but I bet I can teach you a thing or two...",
     easy: [
       {
         question: "Which of these is the flag of China?",
@@ -513,13 +518,14 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [36.103825, 102.501833],
-      zooms: [1.9, 2.4, 2.9, 3.4, 3.9],
+      lat_long: [37.103825, 104.501833],
+      zooms: [2.3, 2.8, 3.3, 3.8, 4.3],
       flag: ""
   },
 
   {
     name: "Brazil",
+    greeting: "There's an awful lot of coffee in Brazil! And also the greatest biodiversity of any nation on earth.",
     easy: [
       {
         question: "Which of these is the flag of Brazil?",
@@ -616,13 +622,14 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [-13.181802, -52.468510],
-      zooms: [1.9, 2.4, 2.9, 3.4, 4.0],
+      lat_long: [-14.181802, -52.468510],
+      zooms: [2.3, 2.8, 3.3, 3.8, 4.3],
       flag: ""
   },
 
   {
     name: "Australia",
+    greeting: "Down under... I got bit by a snake there... Nasty business. But if you insist.",
     easy: [
       {
         question: "Which of these is the flag of Australia?",
@@ -719,13 +726,14 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [-22.863754, 133.081807],
-      zooms: [1.9, 2.4, 2.9, 3.5, 4.1],
+      lat_long: [-27.863754, 133.081807],
+      zooms: [2.4, 2.9, 3.4, 3.9, 4.5],
       flag: ""
   },
 
   {
     name: "India",
+    greeting: "Home of Gandhi and Mother Teresa, you can't name me a more spiritual country. I love India.",
     easy: [
       {
         question: "Which of these is the flag of India?",
@@ -823,12 +831,13 @@ db.countries.insertMany([
       }
     ],
       lat_long: [20.012176, 78.003143],
-      zooms: [2.0, 2.6, 3.2, 3.8, 4.5],
+      zooms: [2.4, 3.0, 3.5, 4.1, 4.7],
       flag: ""
   },
 
   {
     name: "South Africa",
+    greeting: "Great choice! I once befriended an ostrich in South Africa. She was... she was... beautiful... Oh, where was I.",
     easy: [
       {
         question: "Which of these is the flag of South Africa?",
@@ -926,12 +935,13 @@ db.countries.insertMany([
       }
     ],
       lat_long: [-29.131173, 23.816596],
-      zooms: [2.1, 2.9, 3.7, 4.5, 5.3],
+      zooms: [2.6, 3.4, 4.1, 4.9, 5.7],
       flag: ""
   },
 
   {
     name: "Scotland",
+    greeting: "Scotland, eh? I once got into a fight there. I mean, a flight there. Yes. To learn about haggis. Ahem.",
     easy: [
       {
         question: "Which of these is the flag of Scotland?",
@@ -1028,8 +1038,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [56.866107, -4.149746],
-      zooms: [2.3, 3.2, 4.2, 5.2, 6.2],
+      lat_long: [57.866107, -4.149746],
+      zooms: [2.3, 3.2, 4.2, 5.2, 6.18],
       flag: ""
   }
 
@@ -1054,4 +1064,13 @@ db.maps.insertMany(
     url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ"
   }
 
+])
+
+db.mi.insertMany(
+
+  [{
+    name: "result",
+    score: 0,
+    games: 1
+  }
 ])

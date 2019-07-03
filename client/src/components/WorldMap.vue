@@ -1,10 +1,10 @@
 <template lang="html">
-  <div>
-    <l-map style="height: 500px; width: 100%" :options="mapOptions" :center="selectedCountry.lat_long" ref="worldMap" :minZoom="1.4">
+  <div id="map">
+    <l-map style="height: 650px; width: 100%" :options="mapOptions" :center="center" ref="worldMap" :minZoom="1.9">
       <l-tile-layer :url="url"></l-tile-layer>
     </l-map>
-    <select v-model="url">
-      <option v-for="map in maps" :value="map.url">{{map.name}}</option>
+    Map Type: <select v-model="url">
+      <option v-for="map in maps" :value="map.url">{{map.name.toUpperCase()}}</option>
     </select>
   </div>
 </template>
@@ -25,6 +25,7 @@ export default {
       url: "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ",
       selectedCountry: null,
       worldMap: null,
+      center: [45, 0],
       zoom: 0,
       mapOptions: {
        zoomSnap: 0.001
@@ -46,4 +47,14 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+#map {
+  color: #3870a0;
+  font-style: oblique;
+}
+
+option {
+  color: #439fef;
+}
+
 </style>

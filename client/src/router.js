@@ -4,6 +4,7 @@ import Home from '@/views/Home'
 import CountrySelect from '@/views/CountrySelect'
 import Quiz from '@/views/Quiz'
 import Difficulty from '@/views/ChooseDifficulty'
+import NameSelect from '@/views/NameSelect'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ const router = new Router ({
       name: 'difficulty',
       path: '/difficulty',
       component: Difficulty
+    },
+    {
+      name: 'name',
+      path: '/name',
+      component: NameSelect
     }
   ]
 })

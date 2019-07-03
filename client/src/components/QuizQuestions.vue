@@ -1,16 +1,10 @@
 <template lang="html">
-  <div class="">
-
-    <!-- <div class="test-image">
-      <img :src="selectedCountryQuestions[0].answers[0]" height="190px" width="250px"
-      :alt="selectedCountry.name">
-      <img src="../assets/images/france.png" height="180px" width="250px">
-    </div> -->
+  <div class="quiz">
 
     <div v-if="firstQuestion" class="first-question">
     <p>{{selectedCountryQuestions[0].question}}</p>
     <br>
-    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="180px" width="250px"></button>
+    <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="80px" width="120px"></button>
     </div>
 
 
@@ -21,7 +15,13 @@
     </div>
 
     <div v-if="showResult" class="quiz-result" >
-      <p>{{username}} - You scored {{correctAnswers}} out of 5</p>
+      <h1>{{username}}... You scored {{correctAnswers}} out of 5!</h1>
+      <p v-if="correctAnswers === 0">Unlucky {{username}}. But you've learnt a lot today. Let's try again?</p>
+      <p v-if="correctAnswers === 1">Well, that's a start {{username}}! I wonder if you get better second time around...</p>
+      <p v-if="correctAnswers === 2">That's a decent score {{username}}! I bet next time you can do even better...</p>
+      <p v-if="correctAnswers === 3">Not bad at all {{username}}! Maybe one day you'll beat me.</p>
+      <p v-if="correctAnswers === 4">Woah! That's pretty good {{username}}. You've got me sweating here... I don't think you should play anymore.</p>
+      <p v-if="correctAnswers === 5">You beat me! Blast you and your smarts, {{username}}!</p>
     </div>
 
     <div v-if="showResult" class="navigation-buttons">
@@ -113,6 +113,7 @@ export default {
 
     clearProfile(){
       eventBus.$emit('clear-profile', false)
+      eventBus.$emit('clear-ollie', false)
     }
 
 
@@ -124,10 +125,67 @@ export default {
     eventBus.$on('difficulty-selected', (difficulty) =>{
       this.selectedCountryQuestions = difficulty
     })
+    eventBus.$emit('show-ollie', true)
 
   }
 }
 </script>
 
 <style lang="css" scoped>
+
+button {
+  height: 90px;
+  width: 140px;
+  color: white;
+  background-color: #3870a0;
+  font-size: 20px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: #3870a0
+}
+
+h1 {
+  color: #3870a0;
+}
+
+p {
+  color: #3870a0;
+  font-weight: bold;
+}
+
+.questions {
+  display: flex;
+  color: #439fef;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.first-question {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.first-question button {
+  background-color: white;
+  border-color: white;
+}
+
+.first-question button:hover{
+  background-color: #3870a0
+}
+
+.navigation-buttons {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  border-radius: 15px
+}
+
+
+
 </style>

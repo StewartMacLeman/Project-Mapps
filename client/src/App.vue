@@ -4,15 +4,21 @@
 
     <div class="box header">M-Apps!...</div>
     <div class="sidebar">
-      <router-link :to="{ name: 'home' }">Home</router-link>
+      <router-link id="router" @click.native="clearProfile" :to="{ name: 'home' }">Home</router-link>
       <Profile :selectedCountry="selectedCountry"></Profile>
     </div>
     <div class="box content">
       <router-view id="view" :countries="countries" :username="username" :selectedCountry="selectedCountry" :maps="maps"></router-view>
     </div>
 
-  <div class="box character">
-    <p>Image here</p>
+  <div  class="box character">
+    <div v-if="showOllie" class="ollie">
+      <img src="../public/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
+      <h3>"Good luck {{username}}"</h3>
+    </div>
+    <div v-if="!showOllie" class="mi">
+      <button type="button" name="button">Boring stuff for teachers</button>
+    </div>
   </div>
     </div>
 
@@ -34,7 +40,8 @@ export default {
       countries: [],
       maps: [],
       username: "",
-      selectedCountry: ""
+      selectedCountry: "",
+      showOllie: false
     }
   },
   mounted() {
@@ -51,9 +58,21 @@ export default {
     eventBus.$on('country-selected', (country) =>{
       this.selectedCountry = country
     })
+    eventBus.$on('show-ollie', (change) => {
+      this.showOllie = change
+    })
+    eventBus.$on('clear-ollie', (change) => {
+      this.showOllie = change
+    })
   },
   components: {
     Profile
+  },
+
+  methods: {
+    clearProfile(){
+      eventBus.$emit('clear-profile', false)
+    }
   }
 
 }
@@ -94,10 +113,9 @@ nav {
   background-color: #439fef;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   height: auto;
   align-items: center;
-  /* background-image: url('./assets/images/france.png'); */
 }
 
 .content {
@@ -108,9 +126,11 @@ nav {
 }
 .character {
   grid-area: character;
-  height: 20vh;
+  height: auto;
   display: flex;
+  flex-direction: column;
   align-content: space-around;
+  justify-content: center;
 }
 
 .header {
@@ -125,9 +145,10 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 10vh;
+  height: 60px;
+  width: 200px;
   margin-top: 5vh;
-  margin-bottom: 5vh
+  margin-bottom: 5vh;
 }
 
 .sidebar a {
@@ -135,6 +156,7 @@ nav {
   background-color: #3870a0;
   color: white;
   font-size: 20px;
+  border-radius: 15px
 }
 
 .box {
@@ -144,5 +166,22 @@ nav {
   padding: 10px;
   font-size: 150%;
 }
+
+button {
+  height: 60px;
+  width: 15vw;
+  color: white;
+  background-color: #3870a0;
+  font-size: 20px;
+  border-radius: 15px;
+  border-color: #3870a0;
+}
+
+#router {
+  text-decoration: none;
+}
+
+
+
 
 </style>

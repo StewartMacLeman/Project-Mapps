@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="country-view">
-  <CountrySelect :countries="countriesNew"></CountrySelect>
+  <CountrySelect :countries="countriesNew" :username="username"></CountrySelect>
   </div>
 </template>
 
@@ -35,6 +35,7 @@ export default {
   flex-direction: column;
   align-content: center;
   width: 75vw;
+  height: 80vh;
 }
 
 
