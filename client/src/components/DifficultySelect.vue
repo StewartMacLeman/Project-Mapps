@@ -3,7 +3,7 @@
   <div class="difficulty-select">
     <img src="/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
       <h4 id="greeting">"{{this.selectedCountry.greeting}}</h4>
-    <h4>"Okay {{username}} we're going to learn about {{this.selectedCountry.name}}. But I warn you, my easy tests are hard and my hard tests are... diabolical. How difficult should the quiz be?"</h4>
+    <h4>"Okay {{username}} we're going to learn about {{this.selectedCountry.name}}. But I warn you, my easy quizzes are hard and my hard quizzes are... diabolical. How difficult should the quiz be?"</h4>
     <select v-model="selectedCountryDifficulty" required>
       <option disabled value="">Select Difficulty</option>
       <option  :value="this.selectedCountry.easy">EASY</option>
