@@ -5,6 +5,7 @@ import CountrySelect from '@/views/CountrySelect'
 import Quiz from '@/views/Quiz'
 import Difficulty from '@/views/ChooseDifficulty'
 import NameSelect from '@/views/NameSelect'
+import MiData from '@/views/MiData'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ const router = new Router ({
       name: 'name',
       path: '/name',
       component: NameSelect
+    },
+    {
+      name: 'mi',
+      path: '/mi',
+      component: MiData
     }
   ]
 })

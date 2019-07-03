@@ -9,5 +9,11 @@ export default {
       headers: { 'Content-Type': 'application/json'}
     })
     .then(res => res.json())
+  },
+
+  getMi(){
+    return fetch(baseURL)
+    .then(res => res.json())
   }
+
 }

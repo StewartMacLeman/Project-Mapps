@@ -17,7 +17,7 @@
       <h3>"Good luck {{username}}"</h3>
     </div>
     <div v-if="!showOllie" class="mi">
-      <button type="button" name="button">Boring stuff for teachers</button>
+      <button type="button" name="button" onclick="window.location.href = 'http://localhost:8080/#/mi';">Boring stuff for teachers</button>
     </div>
   </div>
     </div>
@@ -186,7 +186,15 @@ button {
   text-decoration: none;
 }
 
+.sidebar a:hover {
+  background-color: white;
+  color: #3870a0
+}
 
+button:hover {
+  background-color: white;
+  color: #3870a0
+}
 
 
 </style>
