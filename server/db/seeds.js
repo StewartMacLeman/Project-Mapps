@@ -1071,6 +1071,6 @@ db.mi.insertMany(
   [{
     name: "result",
     score: 0,
-    games: 1
+    games: 0
   }
 ])
