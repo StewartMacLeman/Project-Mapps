@@ -2,7 +2,7 @@
   <div class="">
   <div class="user-name">
     <img src="/assets/images/owl.png" alt="Ollie the owl" height="250px" width="220px">
-    <label for="username" class="label">Hi there! I'm Oliver the Owl, but my friends call me Ollie. What's your Name? </label>
+    <label for="username" class="label"><h4>"Hi there! I'm Oliver the Owl, but my friends call me Ollie. What's your Name?"</h4></label>
     <input v-model="username" type="text" name="username" style="text-align:center;" required>
     <button v-if="username" v-on:click="handleClick" onclick="window.location.href = 'http://localhost:8080/#/country-select';" type="button" name="button">Confirm your name</button>
   </div>
@@ -29,7 +29,6 @@ export default {
 <style lang="css" scoped>
 .label {
   width: 70vw;
-  margin: 40px;
 }
 
 .user-name {
@@ -47,7 +46,6 @@ button {
   font-size: 20px;
   border-radius: 15px;
   border-color: #3870a0;
-  margin: 20px;
 }
 
 button:hover {
@@ -59,7 +57,7 @@ input {
   height: 40px;
   width: 200px;
   font-size: 20px;
-  margin: 20px;
+  margin: 0 0 4vh 0;
 }
 
 input[type=text]{

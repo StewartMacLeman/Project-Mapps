@@ -103,7 +103,7 @@ db.countries.insertMany([
       }
     ],
     lat_long: [47.064034, 2.497441],
-    zooms: [2.7, 3.6, 4.4, 5.2, 6.1],
+    zooms: [2.7, 3.6, 4.4, 5.2, 5.8],
     flag: ""
   },
 
@@ -207,7 +207,7 @@ db.countries.insertMany([
       }
     ],
     lat_long: [38.667580, 137.846949],
-    zooms: [2.6, 3.3, 4.0, 4.7, 5.48],
+    zooms: [2.6, 3.3, 4.0, 4.7, 5.2],
     flag: ""
   },
 
@@ -310,8 +310,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-    lat_long: [40.849452, -97.234994],
-    zooms: [2.4, 3.0, 3.5, 4.0, 4.57],
+    lat_long: [38.849452, -97.234994],
+    zooms: [2.4, 3.0, 3.5, 4.0, 4.37],
     flag: ""
   },
 
@@ -415,7 +415,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [64.093769, 106.478228],
-      zooms: [2.15, 2.4, 2.65, 2.9, 3.15],
+      zooms: [2.2, 2.4, 2.6, 2.8, 3],
       flag: ""
   },
 
@@ -518,8 +518,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [37.103825, 104.501833],
-      zooms: [2.3, 2.8, 3.3, 3.8, 4.3],
+      lat_long: [37, 104.501833],
+      zooms: [2.3, 2.8, 3.2, 3.6, 3.95],
       flag: ""
   },
 
@@ -623,7 +623,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [-14.181802, -52.468510],
-      zooms: [2.3, 2.8, 3.3, 3.8, 4.3],
+      zooms: [2.2, 2.9, 3.3, 3.7, 4.1],
       flag: ""
   },
 
@@ -727,7 +727,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [-27.863754, 133.081807],
-      zooms: [2.4, 2.9, 3.4, 3.9, 4.5],
+      zooms: [2.2, 2.7, 3.2, 3.7, 4.2],
       flag: ""
   },
 
@@ -830,8 +830,8 @@ db.countries.insertMany([
         question_shorthand: "Population Density (kmsq)"
       }
     ],
-      lat_long: [20.012176, 78.003143],
-      zooms: [2.4, 3.0, 3.5, 4.1, 4.7],
+      lat_long: [22.012176, 78.003143],
+      zooms: [2.0, 2.6, 3.2, 3.8, 4.4],
       flag: ""
   },
 
@@ -935,7 +935,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [-29.131173, 23.816596],
-      zooms: [2.6, 3.4, 4.1, 4.9, 5.7],
+      zooms: [2.0, 2.9, 3.7, 4.6, 5.5],
       flag: ""
   },
 
@@ -1039,7 +1039,7 @@ db.countries.insertMany([
       }
     ],
       lat_long: [57.866107, -4.149746],
-      zooms: [2.3, 3.2, 4.2, 5.2, 6.18],
+      zooms: [2, 2.9, 3.9, 4.9, 5.9],
       flag: ""
   }
 
