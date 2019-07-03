@@ -1,4 +1,5 @@
 <template lang="html">
+
 <div v-if="showOne" class="profile">
   <h2>All about... {{this.selectedCountry.name}}</h2>
 <div v-if="showOne" class="factOne">
@@ -92,8 +93,10 @@ export default {
 <style lang="css" scoped>
 
 .profile {
+
   color: white;
-  margin: 5px
+  border: 5px white;
 }
+
 
 </style>

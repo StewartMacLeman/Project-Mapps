@@ -158,7 +158,6 @@ nav {
   height: 60px;
   width: 200px;
   margin-top: 5vh;
-  margin-bottom: 5vh;
 }
 
 .sidebar a {
