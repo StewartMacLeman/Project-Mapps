@@ -39,10 +39,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of France?",
-        answers: [ "../assets/images/france.png", "../assets/images/brazil.png", "../assets/images/japan.png", "../assets/images/usa.png" ],
-        correct_answer: "../assets/images/france.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in France?",
+        answers: [ "../assets/images/eiffel_tower.jpeg", "../assets/images/sugarloaf_mountain.jpeg", "../assets/images/mount_fuji.jpeg", "../assets/images/empire_state.jpeg" ],
+        correct_answer: "../assets/images/eiffel_tower.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of France?",
@@ -71,10 +71,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of France?",
-        answers: [ "../assets/images/france.png", "../assets/images/brazil.png", "../assets/images/japan.png", "../assets/images/usa.png" ],
-        correct_answer: "../assets/images/france.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of France?",
+        answers: [ "../assets/images/rooster.jpeg", "../assets/images/jaguar.jpeg", "../assets/images/springbok.jpeg", "../assets/images/bison.jpeg" ],
+        correct_answer: "../assets/images/rooster.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through France?",
@@ -142,10 +142,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of Japan?",
-        answers: [ "../assets/images/russia.png", "../assets/images/japan.png", "../assets/images/france.png", "../assets/images/usa.png" ],
-        correct_answer: "../assets/images/japan.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in Japan?",
+        answers: [ "../assets/images/moscow_kremlin.jpeg", "../assets/images/mount_fuji.jpeg", "../assets/images/eiffel_tower.jpeg", "../assets/images/empire_state.jpeg" ],
+        correct_answer: "../assets/images/mount_fuji.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of Japan?",
@@ -174,10 +174,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of Japan?",
-        answers: [ "../assets/images/russia.png", "../assets/images/japan.png", "../assets/images/france.png", "../assets/images/usa.png" ],
-        correct_answer: "../assets/images/japan.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national sport of Japan?",
+        answers: [ "../assets/images/sumo_wrestling.jpeg", "../assets/images/judo.jpeg", "../assets/images/tennis.jpeg", "../assets/images/baseball.jpeg" ],
+        correct_answer: "../assets/images/sumo_wrestling.jpeg",
+        question_shorthand: "National Sport"
       },
       {
         question: "Which is the longest river that runs through Japan?",
@@ -245,10 +245,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of the USA?",
-        answers: [ "../assets/images/russia.png", "../assets/images/scotland.png", "../assets/images/france.png", "../assets/images/usa.png" ],
-        correct_answer: "../assets/images/usa.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in the USA?",
+        answers: [ "../assets/images/moscow_kremlin.jpeg", "../assets/images/edinburgh_castle.jpeg", "../assets/images/eiffel_tower.jpeg", "../assets/images/empire_state.jpeg" ],
+        correct_answer: "../assets/images/empire_state.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of the USA?",
@@ -277,10 +277,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of the USA?",
-        answers: [ "../assets/images/russia.png", "../assets/images/scotland.png", "../assets/images/france.png", "../assets/images/usa.png" ],
-        correct_answer: "../assets/images/usa.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of the USA?",
+        answers: [ "../assets/images/brown_bear.jpeg", "../assets/images/rooster.jpeg", "../assets/images/jaguar.jpeg", "../assets/images/bison.jpeg" ],
+        correct_answer: "../assets/images/bison.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through the USA?",
@@ -348,10 +348,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of Russia?",
-        answers: [ "../assets/images/brazil.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/russia.png" ],
-        correct_answer: "../assets/images/russia.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in Russia?",
+        answers: [ "../assets/images/sugarloaf_mountain.jpeg", "../assets/images/great_wall.jpeg", "../assets/images/eiffel_tower.jpeg", "../assets/images/moscow_kremlin.jpeg" ],
+        correct_answer: "../assets/images/moscow_kremlin.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of Russia?",
@@ -380,10 +380,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of Russia?",
-        answers: [ "../assets/images/brazil.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/russia.png" ],
-        correct_answer: "../assets/images/russia.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of Russia?",
+        answers: [ "../assets/images/jaguar.jpeg", "../assets/images/giant_panda.jpeg", "../assets/images/rooster.jpeg", "../assets/images/brown_bear.jpeg" ],
+        correct_answer: "../assets/images/brown_bear.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through Russia?",
@@ -451,10 +451,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of China?",
-        answers: [ "../assets/images/china.png", "../assets/images/india.png", "../assets/images/france.png", "../assets/images/japan.png" ],
-        correct_answer: "../assets/images/china.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in China?",
+        answers: [ "../assets/images/great_wall.jpeg", "../assets/images/taj_mahal.jpeg", "../assets/images/eiffel_tower.jpeg", "../assets/images/mount_fuji.jpeg" ],
+        correct_answer: "../assets/images/great_wall.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of China?",
@@ -483,10 +483,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of China?",
-        answers: [ "../assets/images/china.png", "../assets/images/india.png", "../assets/images/france.png", "../assets/images/japan.png" ],
-        correct_answer: "../assets/images/china.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of China?",
+        answers: [ "../assets/images/giant_panda.jpeg", "../assets/images/bengal_tiger.jpeg", "../assets/images/rooster.jpeg", "../assets/images/bison.jpeg" ],
+        correct_answer: "../assets/images/giant_panda.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through China?",
@@ -554,10 +554,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of Brazil?",
-        answers: [ "../assets/images/russia.png", "../assets/images/brazil.png", "../assets/images/france.png", "../assets/images/usa.png" ],
-        correct_answer: "../assets/images/brazil.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in Brazil?",
+        answers: [ "../assets/images/moscow_kremlin.jpeg", "../assets/images/sugarloaf_mountain.jpeg", "../assets/images/eiffel_tower.jpeg", "../assets/images/empire_state.jpeg" ],
+        correct_answer: "../assets/images/sugarloaf_mountain.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of Brazil?",
@@ -586,10 +586,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of Brazil?",
-        answers: [ "../assets/images/russia.png", "../assets/images/brazil.png", "../assets/images/france.png", "../assets/images/usa.png" ],
-        correct_answer: "../assets/images/brazil.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of Brazil?",
+        answers: [ "../assets/images/brown_bear.jpeg", "../assets/images/jaguar.jpeg", "../assets/images/rooster.jpeg", "../assets/images/bison.jpeg" ],
+        correct_answer: "../assets/images/jaguar.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through Brazil?",
@@ -657,10 +657,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of Australia?",
-        answers: [ "../assets/images/france.png", "../assets/images/china.png", "../assets/images/australia.png", "../assets/images/japan.png" ],
-        correct_answer: "../assets/images/australia.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in Australia?",
+        answers: [ "../assets/images/eiffel_tower.jpeg", "../assets/images/great_wall.jpeg", "../assets/images/sydney_opera_house.jpeg", "../assets/images/mount_fuji.jpeg" ],
+        correct_answer: "../assets/images/sydney_opera_house.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of Australia?",
@@ -689,10 +689,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of Australia?",
-        answers: [ "../assets/images/france.png", "../assets/images/china.png", "../assets/images/australia.png", "../assets/images/japan.png" ],
-        correct_answer: "../assets/images/australia.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of Australia?",
+        answers: [ "../assets/images/rooster.jpeg", "../assets/images/giant_panda.jpeg", "../assets/images/kangaroo.jpeg", "../assets/images/bison.jpeg" ],
+        correct_answer: "../assets/images/kangaroo.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through Australia?",
@@ -760,10 +760,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of India?",
-        answers: [ "../assets/images/india.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/south-africa.png" ],
-        correct_answer: "../assets/images/india.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in India?",
+        answers: [ "../assets/images/taj_mahal.jpeg", "../assets/images/great_wall.jpeg", "../assets/images/eiffel_tower.jpeg", "../assets/images/table_mountain.jpeg" ],
+        correct_answer: "../assets/images/taj_mahal.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of India?",
@@ -792,10 +792,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of India?",
-        answers: [ "../assets/images/india.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/south-africa.png" ],
-        correct_answer: "../assets/images/india.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of India?",
+        answers: [ "../assets/images/bengal_tiger.jpeg", "../assets/images/giant_panda.jpeg", "../assets/images/rooster.jpeg", "../assets/images/springbok.jpeg" ],
+        correct_answer: "../assets/images/bengal_tiger.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through India?",
@@ -863,10 +863,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of South Africa?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/south-africa.png", "../assets/images/usa.png", "../assets/images/japan.png" ],
-        correct_answer: "../assets/images/south-africa.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in South Africa?",
+        answers: [ "../assets/images/edinburgh_castle.jpeg", "../assets/images/table_mountain.jpeg", "../assets/images/empire_state.jpeg", "../assets/images/mount_fuji.jpeg" ],
+        correct_answer: "../assets/images/table_mountain.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of South Africa?",
@@ -895,10 +895,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of South Africa?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/south-africa.png", "../assets/images/usa.png", "../assets/images/japan.png" ],
-        correct_answer: "../assets/images/south-africa.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of South Africa?",
+        answers: [ "../assets/images/jaguar.jpeg", "../assets/images/springbok.jpeg", "../assets/images/bison.jpeg", "../assets/images/rooster.jpeg" ],
+        correct_answer: "../assets/images/springbok.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through South Africa?",
@@ -966,10 +966,10 @@ db.countries.insertMany([
     ],
     medium: [
       {
-        question: "Which of these is the flag of Scotland?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/india.png" ],
-        correct_answer: "../assets/images/scotland.png",
-        question_shorthand: "Flag"
+        question: "Which of these is a well known landmark in Scotland?",
+        answers: [ "../assets/images/edinburgh_castle.jpeg", "../assets/images/great_wall.jpeg", "../assets/images/eiffel_tower.jpeg", "../assets/images/taj_mahal.jpeg" ],
+        correct_answer: "../assets/images/edinburgh_castle.jpeg",
+        question_shorthand: "Landmark"
       },
       {
         question: "What is the national sport of Scotland?",
@@ -998,10 +998,10 @@ db.countries.insertMany([
     ],
     hard: [
       {
-        question: "Which of these is the flag of Scotland?",
-        answers: [ "../assets/images/scotland.png", "../assets/images/china.png", "../assets/images/france.png", "../assets/images/india.png" ],
-        correct_answer: "../assets/images/scotland.png",
-        question_shorthand: "Flag"
+        question: "Which of these is the national animal of Scotland?",
+        answers: [ "../assets/images/unicorn.jpeg", "../assets/images/giant_panda.jpeg", "../assets/images/rooster.jpeg", "../assets/images/bengal_tiger.jpeg" ],
+        correct_answer: "../assets/images/unicorn.jpeg",
+        question_shorthand: "National Animal"
       },
       {
         question: "Which is the longest river that runs through Scotland?",
