@@ -421,7 +421,7 @@ db.countries.insertMany([
 
   {
     name: "China",
-    greet: "Good choice! Or hǎo de xuǎnzé as they'd say in China. I learnt kung fu and good manners there but I bet I can teach you a thing or two...",
+    greeting: "Good choice! Or hǎo de xuǎnzé as they'd say in China. I learnt kung fu and good manners there but I bet I can teach you a thing or two...",
     easy: [
       {
         question: "Which of these is the flag of China?",
