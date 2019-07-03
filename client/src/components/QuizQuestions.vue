@@ -15,7 +15,7 @@
     </div>
 
     <div v-if="showResult" class="quiz-result" >
-      <h1>{{username}}"... You scored {{correctAnswers}} out of 5!"</h1>
+      <h1>"{{username}}... You scored {{correctAnswers}} out of 5!"</h1>
       <p v-if="correctAnswers === 0">"Unlucky {{username}}. But you've learnt a lot today. Let's try again?"</p>
       <p v-if="correctAnswers === 1">"Well, that's a start {{username}}! I wonder if you get better second time around..."</p>
       <p v-if="correctAnswers === 2">"That's a decent score {{username}}! I bet next time you can do even better..."</p>
