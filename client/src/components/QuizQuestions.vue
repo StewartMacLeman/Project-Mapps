@@ -150,7 +150,7 @@ button {
   width: 140px;
   color: white;
   background-color: #3870a0;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 15px;
   margin: 10px;
 }
