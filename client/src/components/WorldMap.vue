@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="map">
-    <l-map style="height: 650px; width: 100%" :options="mapOptions" :center="center" ref="worldMap" :minZoom="1.9">
+    <l-map style="height: 70vh; width: 100%" :options="mapOptions" :center="center" ref="worldMap" :minZoom="1.6">
       <l-tile-layer :url="url"></l-tile-layer>
     </l-map>
     Map Type: <select v-model="url">
