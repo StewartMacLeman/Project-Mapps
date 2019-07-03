@@ -25,7 +25,7 @@ export default {
       url: "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ",
       selectedCountry: null,
       worldMap: null,
-      center: [45, 0],
+      center: [22.012176, 78.003143],
       zoom: 0,
       mapOptions: {
        zoomSnap: 0.001
