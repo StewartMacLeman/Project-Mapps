@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="MiData">
-    <h1>MI data</h1>
+    <h1>MI (Management Information)...</h1>
     <MiData></MiData>
   </div>
 </template>

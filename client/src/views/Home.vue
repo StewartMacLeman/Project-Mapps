@@ -13,40 +13,40 @@
     </div>
 
     <div class="flag1">
-      <img src="/assets/images/scotland.png" alt="Scottish Saltire" height="70px" width="118px">
+      <img src="/assets/images/scotland.png" alt="Scottish Saltire" height="90px" width="118px">
     </div>
 
     <div class="flag2">
-      <img src="/assets/images/brazil.png" alt="Brazilian flag" height="70px" width="118px">
+      <img src="/assets/images/brazil.png" alt="Brazilian flag" height="90px" width="118px">
     </div>
 
     <div class="flag3">
-      <img src="/assets/images/france.png" alt="French flag" height="70px" width="118px">
+      <img src="/assets/images/france.png" alt="French flag" height="90px" width="118px">
 
     </div>
 
     <div class="flag4">
-      <img src="/assets/images/australia.png" alt="Australian flag" height="70px" width="118px">
+      <img src="/assets/images/australia.png" alt="Australian flag" height="90px" width="118px">
 
     </div>
 
     <div class="flag5">
-      <img src="/assets/images/japan.png" alt="Japanese flag" height="70px" width="118px">
+      <img src="/assets/images/japan.png" alt="Japanese flag" height="90px" width="118px">
 
     </div>
 
     <div class="flag6">
-      <img src="/assets/images/usa.png" alt="USA flag" height="70px" width="118px">
+      <img src="/assets/images/usa.png" alt="USA flag" height="90px" width="118px">
 
     </div>
 
     <div class="flag7">
-      <img src="/assets/images/russia.png" alt="Russian flag" height="70px" width="118px">
+      <img src="/assets/images/russia.png" alt="Russian flag" height="90px" width="118px">
 
     </div>
 
     <div class="flag8">
-      <img src="/assets/images/china.png" alt="Chinese flag" height="70px" width="118px">
+      <img src="/assets/images/china.png" alt="Chinese flag" height="90px" width="118px">
 
     </div>
 
@@ -72,7 +72,7 @@ img {
 .home-wrap {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw 11.25vw ;
+  grid-template-columns: 12vw 12vw 12vw 12vw 12vw 12vw ;
   grid-template-areas:
   "title title title title title title "
   "title title title title title title "
@@ -94,27 +94,51 @@ img {
 }
 .flag1 {
   grid-area: flag1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flag2 {
   grid-area: flag2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flag3 {
   grid-area: flag3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flag4 {
   grid-area: flag4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flag5 {
   grid-area: flag5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flag6 {
   grid-area: flag6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flag7 {
   grid-area: flag7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .flag8 {
   grid-area: flag8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ollie {
@@ -122,7 +146,8 @@ img {
 }
 
 .ollie img {
-  width: 16vw;
+  width: 19vw;
+  height: auto;
 }
 
 .home-wrap {
@@ -143,6 +168,16 @@ button {
 button:hover {
   background-color: white;
   color: #3870a0
+}
+
+.title button {
+  width: 30vw;
+}
+
+.title h1 {
+  font-size: 100px;
+  margin: 0;
+  font-style: oblique;
 }
 
 

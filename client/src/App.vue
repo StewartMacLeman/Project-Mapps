@@ -2,7 +2,9 @@
   <div id="app">
     <div class="wrapper">
 
-    <div class="box header">M-Apps!...</div>
+    <div class="box header">
+      <h3>M-Apps!...</h3>
+    </div>
     <div class="sidebar">
       <router-link id="router" @click.native="clearProfile" :to="{ name: 'home' }">Home</router-link>
       <Profile :selectedCountry="selectedCountry"></Profile>
@@ -102,7 +104,7 @@ nav {
 .wrapper {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 20vw 37vw 37vw;
+  grid-template-columns: 20vw 39vw 39vw;
   grid-template-areas:
   "header content content"
   "sidebar content content"
@@ -144,6 +146,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-style: oblique;
+  margin: 0;
 }
 
 
@@ -196,6 +200,8 @@ button:hover {
   background-color: white;
   color: #3870a0
 }
+
+
 
 
 </style>

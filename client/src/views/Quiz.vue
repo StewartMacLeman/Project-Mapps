@@ -28,7 +28,7 @@ export default {
 .quiz-map {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 36vw 36vw;
+  grid-template-columns: 38vw 38vw;
   grid-template-areas:
   "map map"
   "quiz quiz";
