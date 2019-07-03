@@ -18,15 +18,9 @@ MongoClient.connect('mongodb://localhost:27017')
   const mapsCollection = db.collection('maps')
   const mapsRouter = createRouter(mapsCollection)
   app.use('/api/maps', mapsRouter)
-<<<<<<< HEAD
-  // const miCollection = db.collection('mi')
-  // const miRouter = createRouter(miCollection)
-  // app.use('/api/mi', miRouter)
-=======
   const miCollection = db.collection('mi')
   const miRouter = createRouter(miCollection)
   app.use('/api/mi', miRouter)
->>>>>>> 921d2319602ea6269b1f0ab4460b7eb63807f579
 })
 .catch(console.error)
 
