@@ -40,7 +40,7 @@ export default {
 .country-select {
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: auto;
   align-items: center;
 }
 
