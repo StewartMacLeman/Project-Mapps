@@ -2,14 +2,14 @@
   <div class="quiz">
 
     <div v-if="firstQuestion" class="first-question">
-    <p>{{selectedCountryQuestions[0].question}}</p>
+    <p>"{{selectedCountryQuestions[0].question}}"</p>
     <br>
     <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers"><img :src="answer" height="80px" width="120px"></button>
     </div>
 
 
     <div v-if="showQuiz" class="questions">
-    <p>{{selectedCountryQuestions[0].question}}</p>
+    <p>"{{selectedCountryQuestions[0].question}}"</p>
     <br>
     <button type="button" name="answer-button" v-model="answerGiven" v-on:click="handleClick(answer)" v-for="answer in selectedCountryQuestions[0].answers">{{answer}}</button>
     </div>
@@ -166,6 +166,7 @@ h1 {
 
 p {
   color: #3870a0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
