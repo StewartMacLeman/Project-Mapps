@@ -53,8 +53,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of France in millions?",
-        answers: [ "75", "59", "81", "67" ],
-        correct_answer: "67",
+        answers: [ "75 million", "59 million", "81 million", "67 million" ],
+        correct_answer: "67 million",
         question_shorthand: "Population"
       },
       {
@@ -157,8 +157,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of Japan in millions?",
-        answers: [ "126", "79", "81", "65" ],
-        correct_answer: "126",
+        answers: [ "126 million", "79 million", "81 million", "65 million" ],
+        correct_answer: "126 million",
         question_shorthand: "Population"
       },
       {
@@ -261,8 +261,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of the USA in millions?",
-        answers: [ "327", "279", "181", "405" ],
-        correct_answer: "327",
+        answers: [ "327 million", "279 million", "181 million", "405 million" ],
+        correct_answer: "327 million",
         question_shorthand: "Population"
       },
       {
@@ -365,8 +365,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of Russia in millions?",
-        answers: [ "147", "279", "191", "305" ],
-        correct_answer: "147",
+        answers: [ "147 million", "279 million", "191 million", "305 million" ],
+        correct_answer: "147 million",
         question_shorthand: "Population"
       },
       {
@@ -469,8 +469,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of China in millions?",
-        answers: [ "991", "1109", "591", "1386" ],
-        correct_answer: "1386",
+        answers: [ "991 million", "1109 million", "591 million", "1386 million" ],
+        correct_answer: "1386 million",
         question_shorthand: "Population"
       },
       {
@@ -573,8 +573,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of Brazil in millions?",
-        answers: [ "178", "301", "191", "210" ],
-        correct_answer: "210",
+        answers: [ "178 million", "301 million", "191 million", "210 million" ],
+        correct_answer: "210 million",
         question_shorthand: "Population"
       },
       {
@@ -677,8 +677,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of Australia in millions?",
-        answers: [ "25", "39", "9", "49" ],
-        correct_answer: "25",
+        answers: [ "25 million", "39 million", "9 million", "49 million" ],
+        correct_answer: "25 million",
         question_shorthand: "Population"
       },
       {
@@ -781,8 +781,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of India in millions?",
-        answers: [ "1102", "894", "909", "1350" ],
-        correct_answer: "1350",
+        answers: [ "1102 million", "894 million", "909 million", "1350 million" ],
+        correct_answer: "1350 million",
         question_shorthand: "Population"
       },
       {
@@ -885,8 +885,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of South Africa in millions?",
-        answers: [ "58", "102", "39", "65" ],
-        correct_answer: "58",
+        answers: [ "58 million", "102 million", "39 million", "65 million" ],
+        correct_answer: "58 million",
         question_shorthand: "Population"
       },
       {
@@ -989,8 +989,8 @@ db.countries.insertMany([
       },
       {
         question: "What is the approximate population of Scotland in millions?",
-        answers: [ "5.5", "10.2", "6.7", "2.3" ],
-        correct_answer: "5.5",
+        answers: [ "5.5 million", "10.2 million", "6.7 million", "2.3 million" ],
+        correct_answer: "5.5 million",
         question_shorthand: "Population"
       },
       {
