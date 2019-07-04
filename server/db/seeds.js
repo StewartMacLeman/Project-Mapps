@@ -1062,6 +1062,14 @@ db.maps.insertMany(
   {
     name: "World Street Map",
     url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png?apikey=pk.eyJ1Ijoic2hhdW5oayIsImEiOiJjanhqYTEyazIxeTE4M3lzODMzYjdtNTdhIn0.zjHGZ4T6dhbdg5dQayUugQ"
+  },
+  {
+    name: "Wild West",
+    url: "https://tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=a4a16163a7e14e1280e2d4e258ff71e2"
+  },
+  {
+    name: "Hell Fire",
+    url: "https://tile.thunderforest.com/spinal-map/{z}/{x}/{y}.png?apikey=a4a16163a7e14e1280e2d4e258ff71e2"
   }
 
 ])
