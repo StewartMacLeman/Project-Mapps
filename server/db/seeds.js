@@ -1068,6 +1068,10 @@ db.maps.insertMany(
     url: "https://tile.thunderforest.com/pioneer/{z}/{x}/{y}.png?apikey=a4a16163a7e14e1280e2d4e258ff71e2"
   },
   {
+    name: "Earth At Night",
+    url: "https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default//GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpg"
+  },
+  {
     name: "Hell Fire",
     url: "https://tile.thunderforest.com/spinal-map/{z}/{x}/{y}.png?apikey=a4a16163a7e14e1280e2d4e258ff71e2"
   }
